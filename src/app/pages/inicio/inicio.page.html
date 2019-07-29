@@ -1,0 +1,64 @@
+<app-header titulo="Bienvenidad"></app-header>
+
+<ion-content>
+  <form [formGroup]="myForm" (ngSubmit)="save()">
+    <ion-list>
+      <ion-list>
+          <ion-radio-group formControlName="ciclo">
+            <ion-list-header>
+                Averigua la fecha de parto por:
+            </ion-list-header>
+        
+            <ion-item>
+              <ion-label>Su ciclo</ion-label>
+              <ion-radio  checked value="ci"></ion-radio>
+            </ion-item>
+        
+            <ion-item>
+              <ion-label>Dìa de concepciòn</ion-label>
+              <ion-radio value="co"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      <ion-item>
+          <ion-label>Fecha </ion-label>
+          <ion-datetime placeholder="Nacimiento"
+                        display-format="YYYY MMMM DD"
+                        cancelText="Cancelar!!!"
+                        formControlName="fecha">
+          </ion-datetime>
+      </ion-item>
+
+      
+
+      <ion-item>
+          <ion-label position="floating">Duraciòn mestruaciòn</ion-label>
+          <ion-input type="number" formControlName="duracionMes"></ion-input>
+        </ion-item>
+
+
+
+        <ion-item>
+            <ion-label>Posible fecha de parto</ion-label>
+            <ion-label position="fixed">3 de julio  2018</ion-label>
+        </ion-item>
+    
+        <ion-item>
+            <ion-label>Edad gestacional precisa</ion-label>
+            <ion-label position="fixed">3  semanas  4 dìas</ion-label>
+        </ion-item>
+    
+       
+    
+        <ion-button expand="full" type="submit"
+                    [disabled]="myForm.invalid" >
+          Enviar
+        </ion-button>
+    </ion-list>
+
+    
+  </form>
+
+
+</ion-content>
+
