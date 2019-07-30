@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { IonSegment } from '@ionic/angular';
 import { NavController } from '@ionic/angular';
 import { SEMANAS } from '../../constant/constant';
 
@@ -8,14 +9,22 @@ import { SEMANAS } from '../../constant/constant';
   styleUrls: ['./citas.page.scss'],
 })
 export class CitasPage implements OnInit {
+  mostrarExamenes:Boolean;
+  mostrarCuidados:Boolean;
+  mostrarAlimentacion:Boolean;
 
   ocultar = '';
-
   slides: { img: string, titulo: string, desc: string }[] = SEMANAS;
+  
+
+  publisher = '';
 
   constructor( private navCtrl: NavController ) { }
 
   ngOnInit() {
+    this.mostrarExamenes=true;
+    this.mostrarCuidados=false;
+    this.mostrarAlimentacion=false;
   }
 
   onClick() {
@@ -24,6 +33,29 @@ export class CitasPage implements OnInit {
     this.navCtrl.navigateBack('/');
     console.log("holaaaa");
 
+  }
+
+  segmentChanged( event ) {
+  const valorSegmento = event.detail.value;
+  this.setVariables();
+  if(valorSegmento=='E'){
+    this.mostrarExamenes=true;
+  }else if(valorSegmento=='C'){
+    this.mostrarCuidados=true;
+  }else{
+    this.mostrarAlimentacion=true;
+  }
+
+
+
+    console.log(valorSegmento);
+
+  }
+
+  setVariables(){
+    this.mostrarExamenes=false;
+    this.mostrarCuidados=false;
+    this.mostrarAlimentacion=false;
   }
 
 
