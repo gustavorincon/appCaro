@@ -18,7 +18,6 @@ export class InicioPage implements OnInit {
 
   private createForm(){
     return this.formBuilder.group({
-      ciclo: ['ci',Validators.required],
       fecha:['',Validators.required],
       duracionMes:['',Validators.required]
     });

@@ -1,16 +1,16 @@
 export const SEMANAS=[
     {
-        img: '/assets/slides/photos.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 1',
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 2',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 3',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
@@ -20,17 +20,17 @@ export const SEMANAS=[
         desc: 'Siempre sabremos donde estás!'
       },
       {
-        img: '/assets/slides/photos.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 5',
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 6',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 7',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
@@ -44,12 +44,12 @@ export const SEMANAS=[
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'ESemana 10',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 11',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
@@ -63,12 +63,12 @@ export const SEMANAS=[
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 14',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 15',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
@@ -82,12 +82,12 @@ export const SEMANAS=[
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 18',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 19',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
@@ -97,17 +97,17 @@ export const SEMANAS=[
         desc: 'Siempre sabremos donde estás!'
       },
       {
-        img: '/assets/slides/photos.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 21',
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 22',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 23',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
@@ -117,17 +117,17 @@ export const SEMANAS=[
         desc: 'Siempre sabremos donde estás!'
       },
       {
-        img: '/assets/slides/photos.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 25',
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/music-player-2.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 26',
         desc: 'Toda tu música favorita está aquí'
       },
       {
-        img: '/assets/slides/calendar.svg',
+        img: '/assets/slides/placeholder-1.svg',
         titulo: 'Semana 27',
         desc: 'El mejor calendario del mundo a tu disposición'
       },
