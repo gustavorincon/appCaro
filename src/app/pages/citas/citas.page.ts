@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { IonSegment } from '@ionic/angular';
 import { NavController } from '@ionic/angular';
 import { SEMANAS } from '../../constant/constant';
+import { Embarazada } from '../../models/embarazada';
 
 @Component({
   selector: 'app-citas',
@@ -12,6 +13,7 @@ export class CitasPage implements OnInit {
   mostrarExamenes:Boolean;
   mostrarCuidados:Boolean;
   mostrarAlimentacion:Boolean;
+  embarazada:Embarazada;
 
   ocultar = '';
   slides: { img: string, titulo: string, desc: string }[] = SEMANAS;
@@ -19,7 +21,10 @@ export class CitasPage implements OnInit {
 
   publisher = '';
 
-  constructor( private navCtrl: NavController ) { }
+  constructor( private navCtrl: NavController ) { 
+    this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
+    console.log(this.embarazada);
+  }
 
   ngOnInit() {
     this.mostrarExamenes=true;
