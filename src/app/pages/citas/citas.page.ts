@@ -14,6 +14,8 @@ export class CitasPage implements OnInit {
   mostrarCuidados:Boolean;
   mostrarAlimentacion:Boolean;
   embarazada:Embarazada;
+  slideOpts={}
+  
 
   ocultar = '';
   slides: { img: string, titulo: string, desc: string }[] = SEMANAS;
@@ -23,6 +25,10 @@ export class CitasPage implements OnInit {
 
   constructor( private navCtrl: NavController ) { 
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
+    this.slideOpts = {
+      initialSlide: Number(this.embarazada.numeroSemanas)-1,
+      speed: 400
+    };
     console.log(this.embarazada);
   }
 
@@ -33,11 +39,8 @@ export class CitasPage implements OnInit {
   }
 
   onClick() {
-
     this.ocultar = 'animated fadeOut fast';
     this.navCtrl.navigateBack('/');
-    console.log("holaaaa");
-
   }
 
   segmentChanged( event ) {

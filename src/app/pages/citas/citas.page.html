@@ -1,7 +1,7 @@
 <app-header titulo="Tu citas"></app-header>
 <ion-content>
 
-    <ion-slides pager="false" class="slide-full">
+    <ion-slides pager="false" class="slide-full" [options]="slideOpts">
         <ion-slide *ngFor="let slide of slides">
             <ion-card mode="ios">
                 <ion-card-header>
