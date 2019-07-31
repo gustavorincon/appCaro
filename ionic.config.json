@@ -1,5 +1,7 @@
 {
   "name": "appUniversidadFinal",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

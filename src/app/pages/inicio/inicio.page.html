@@ -3,7 +3,7 @@
 <ion-content>
     <form [formGroup]="myForm" (ngSubmit)="save()">
         <ion-list>
-            <ion-list-header>
+            <ion-list-header class="title bar">
                 Averigua la posible fecha de parto
             </ion-list-header>
 
@@ -12,26 +12,24 @@
                 <ion-datetime placeholder="Nacimiento" display-format="YYYY MMMM DD" cancelText="Cancelar!!!" formControlName="fecha">
                 </ion-datetime>
             </ion-item>
-
-
-
             <ion-item>
                 <ion-label position="floating">Duraciòn mestruaciòn</ion-label>
                 <ion-input type="number" formControlName="duracionMes"></ion-input>
             </ion-item>
-
-            <div class="bar bar-subheader bar-energized">
-                <h3 class="title">Subcabecera</h3>
-            </div>
-
-            <ion-item>
-                <ion-label>Posible fecha de parto</ion-label>
-                <ion-label position="fixed">3 de julio 2018</ion-label>
+            <ion-item class="bar">
+                <ion-label class="title">Fecha de parto</ion-label>
             </ion-item>
 
-            <ion-item>
-                <ion-label>Edad gestacional precisa</ion-label>
-                <ion-label position="fixed">3 semanas 4 dìas</ion-label>
+            <ion-item class="bar">
+                <ion-label>3 de julio 2018</ion-label>
+            </ion-item>
+
+            <ion-item class="bar">
+                <ion-label class="title">Edad gestacional</ion-label>
+            </ion-item>
+
+            <ion-item class="bar">
+                <ion-label >3 semanas 4 dìas</ion-label>
             </ion-item>
 
 
