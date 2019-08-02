@@ -1,4 +1,4 @@
-<app-header titulo="Bienvenidad"></app-header>
+<app-header titulo="Bienvenida mamá"></app-header>
 
 <ion-content>
     <form [formGroup]="myForm" (ngSubmit)="save()">
@@ -30,9 +30,11 @@
 
 
 
-            <ion-button color="tertiary" expand="full" type="submit" [disabled]="myForm.invalid">
+            <ion-button class="propertiesButton" color="primary" expand="full" type="submit" [disabled]="myForm.invalid">
                 Guardar
             </ion-button>
+
+
         </ion-list>
 
 
