@@ -1,11 +1,11 @@
 export const SEMANAS=[
     {
-        img: '/assets/slides/placeholder-1.svg',
+        img: '/assets/slides/semana1.png',
         titulo: 'Semana 1',
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/placeholder-1.svg',
+        img: '/assets/slides/semana2.png',
         titulo: 'Semana 2',
         desc: 'Toda tu música favorita está aquí'
       },
@@ -44,7 +44,7 @@ export const SEMANAS=[
         desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
-        img: '/assets/slides/placeholder-1.svg',
+        img: '/assets/slides/photos.svg',
         titulo: 'ESemana 10',
         desc: 'Toda tu música favorita está aquí'
       },
