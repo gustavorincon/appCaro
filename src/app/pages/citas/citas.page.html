@@ -1,13 +1,13 @@
 <app-header titulo="Tu citas"></app-header>
 <ion-content>
 
-    <ion-slides pager="false" [options]="slideOpts">
+    <ion-slides pager="false" [options]="slideOpts" style="height: 80%;">
         <ion-slide *ngFor="let slide of slides">
             <ion-card class="properties-card">
                 <ion-card-header>
                     <ion-card-title> {{ slide.titulo }} </ion-card-title>
                 </ion-card-header>
-                <img [src]="slide.img" >
+                <img [src]="slide.img">
                 <ion-card-content>
                     {{ slide.desc }}
                 </ion-card-content>

@@ -7,7 +7,7 @@ export const SEMANAS=[
       {
         img: '/assets/slides/semana2.png',
         titulo: 'Semana 2',
-        desc: 'Toda tu música favorita está aquí'
+        desc: 'Mira y comparte increíbles fotos de todo el mundo'
       },
       {
         img: '/assets/slides/placeholder-1.svg',
