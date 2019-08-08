@@ -19,9 +19,6 @@ export class InicioPage implements OnInit {
   embarazada:Embarazada;
 
   constructor( public navCtrl: NavController,public formBuilder: FormBuilder) { 
-    
-    
-    console.log(this.embarazada);
     this.myForm = this.createForm();
   }
 
