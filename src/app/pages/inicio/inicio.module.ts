@@ -8,6 +8,7 @@ import { IonicModule, NavController } from '@ionic/angular';
 import { InicioPage } from './inicio.page';
 import { ComponentsModule } from '../../components/components.module';
 import { saveConfig } from '@ionic/core';
+import { ServiceGeneralService } from '../../services/service-general.service';
 
 const routes: Routes = [
   {
@@ -25,6 +26,7 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     ComponentsModule
   ],
-  declarations: [InicioPage]
+  declarations: [InicioPage],
+  providers:[ServiceGeneralService]
 })
 export class InicioPageModule {}

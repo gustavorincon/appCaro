@@ -3,6 +3,7 @@ import { IonSegment } from '@ionic/angular';
 import { NavController } from '@ionic/angular';
 import { SEMANAS } from '../../constant/constant';
 import { Embarazada } from '../../models/embarazada';
+import { ServiceGeneralService } from '../../services/service-general.service';
 
 @Component({
   selector: 'app-citas',
@@ -23,8 +24,9 @@ export class CitasPage implements OnInit {
 
   publisher = '';
 
-  constructor( private navCtrl: NavController ) { 
+  constructor( private navCtrl: NavController, public serviceGeneralService:ServiceGeneralService ) { 
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
+    this.serviceGeneralService.viewButtomHeader=true;
     this.slideOpts = {
       initialSlide: Number(this.embarazada.numeroSemanas)-1,
       speed: 400

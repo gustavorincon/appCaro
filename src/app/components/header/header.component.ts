@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { PopoverController } from '@ionic/angular';
 import { ModalComponent } from '../modal/modal.component';
+import { ServiceGeneralService } from '../../services/service-general.service';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +12,8 @@ export class HeaderComponent implements OnInit {
 
   @Input() titulo:String;
 
-  constructor( private popoverCtrl: PopoverController) { }
+  constructor( private popoverCtrl: PopoverController,
+              public serviceGeneralService:ServiceGeneralService) { }
 
   ngOnInit() {}
 

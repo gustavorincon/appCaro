@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Embarazada } from '../../models/embarazada';
+import { ServiceGeneralService } from '../../services/service-general.service';
 
 @Component({
   selector: 'app-inicio',
@@ -18,8 +19,10 @@ export class InicioPage implements OnInit {
   numeroDias:Number=0;
   embarazada:Embarazada;
 
-  constructor( public navCtrl: NavController,public formBuilder: FormBuilder) { 
+  constructor( public navCtrl: NavController,public formBuilder: FormBuilder,
+   public serviceGeneralService:ServiceGeneralService) { 
     this.myForm = this.createForm();
+    this.serviceGeneralService.viewButtomHeader=false;
   }
 
 
@@ -30,6 +33,7 @@ export class InicioPage implements OnInit {
   }
 
   ngOnInit() {
+   
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
     if(this.embarazada!=null){
       this.navCtrl.navigateRoot("tabs/citas");

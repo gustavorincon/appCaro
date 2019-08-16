@@ -1,6 +1,6 @@
 <ion-header>
-    <ion-toolbar color="primary">
-        <ion-buttons slot="secondary">
+    <ion-toolbar color="danger">
+        <ion-buttons slot="secondary" *ngIf="serviceGeneralService.viewButtomHeader">
             <ion-button text="Regresar" (click)="mostrarPop($event)">
                 <ion-icon name="contact"></ion-icon>
             </ion-button>
