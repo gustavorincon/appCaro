@@ -4,6 +4,7 @@ import { Platform, NavController } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { Embarazada } from './models/embarazada';
+import { GoogleAnalytics } from '@ionic-native/google-analytics/ngx';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ export class AppComponent {
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
-    public navCtrl: NavController
+    public navCtrl: NavController,
+    private ga: GoogleAnalytics
   ) {
     this.initializeApp();
   }
@@ -27,6 +29,8 @@ export class AppComponent {
       if(this.embarazada!=null){
         this.navCtrl.navigateRoot("tabs/citas");
       }
+      this.ga.startTrackerWithId('UA-XXXXXXXXX-X')
+      .then(() => {}).catch(e => alert('Error starting GoogleAnalytics == '+ e));
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });

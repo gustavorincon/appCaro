@@ -17,3 +17,12 @@
 }
 
 $datetime-ios-placeholder-color: rgb(199, 32, 32) !important;
+.picker-opt.picker-opt-selected,
+.picker-prefix,
+.picker-suffix {
+    color: var(--ion-color-primary, #FFFf);
+}
+
+--border-color {
+    color: rgb(199, 32, 32);
+}
