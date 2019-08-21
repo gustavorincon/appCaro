@@ -29,10 +29,14 @@ export class AppComponent {
       if(this.embarazada!=null){
         this.navCtrl.navigateRoot("tabs/citas");
       }
-      this.ga.startTrackerWithId('UA-XXXXXXXXX-X')
+      this.ga.startTrackerWithId('UA-146142063-1')
       .then(() => {}).catch(e => alert('Error starting GoogleAnalytics == '+ e));
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
   }
+
+
+ 
+
 }
