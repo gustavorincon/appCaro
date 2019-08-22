@@ -71,7 +71,7 @@ export class InicioPage implements OnInit {
 
   save(){
    if(this.myForm.valid){
-     this.embarazada= new Embarazada(this.myForm.value.fecha,this.fechaParto,this.edadGestacion,this.numeroSemanas);
+     this.embarazada= new Embarazada(this.myForm.value.fecha,this.fechaParto,this.edadGestacion,this.numeroSemanas,this.numeroDias);
      localStorage.setItem('embarazada', JSON.stringify(this.embarazada));
      this.navCtrl.navigateRoot("tabs/citas");
    }

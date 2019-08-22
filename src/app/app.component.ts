@@ -30,7 +30,7 @@ export class AppComponent {
         this.navCtrl.navigateRoot("tabs/citas");
       }
       this.ga.startTrackerWithId('UA-146142063-1')
-      .then(() => {}).catch(e => alert('Error starting GoogleAnalytics == '+ e));
+      .then(() => {}).catch(e =>console.log("error") /*alert('Error starting GoogleAnalytics == '+ e)*/);
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });

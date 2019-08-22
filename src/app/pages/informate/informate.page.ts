@@ -21,19 +21,25 @@ export class InformatePage implements OnInit {
 
   constructor( public navCtrl: NavController,public formBuilder: FormBuilder,
     public serviceGeneralService:ServiceGeneralService) { 
+     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
      this.myForm = this.createForm();
      this.serviceGeneralService.viewButtomHeader=false;
    }
 
    private createForm(){
     return this.formBuilder.group({
-      fecha:['',Validators.required]
+      fecha:[this.embarazada.fechaCiclo,Validators.required]
     });
   }
 
   ngOnInit() {
    
-    this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
+   
+    this.fechaParto=this.embarazada.fechaParto;
+    this.numeroSemanas=this.embarazada.numeroSemanas;
+    this.numeroDias=this.embarazada.numeroDias;
+
+
    
   }
 
@@ -68,9 +74,8 @@ export class InformatePage implements OnInit {
 
   save(){
    if(this.myForm.valid){
-     this.embarazada= new Embarazada(this.myForm.value.fecha,this.fechaParto,this.edadGestacion,this.numeroSemanas);
+     this.embarazada= new Embarazada(this.myForm.value.fecha,this.fechaParto,this.edadGestacion,this.numeroSemanas,this.numeroDias);
      localStorage.setItem('embarazada', JSON.stringify(this.embarazada));
-     this.navCtrl.navigateRoot("tabs/citas");
    }
   }
 
