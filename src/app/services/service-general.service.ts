@@ -11,7 +11,7 @@ export class ServiceGeneralService {
  
   constructor(private http: HttpClient) { }
 
-  public getJSON(): Observable<any> {
+  public getNoticias(): Observable<any> {
     return this.http.get("./assets/json/noticias.json");
 }
 }
