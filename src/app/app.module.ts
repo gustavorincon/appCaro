@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 import { DatePicker } from '@ionic-native/date-picker/ngx';
 import { GoogleAnalytics } from '@ionic-native/google-analytics/ngx';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,7 +19,8 @@ import { GoogleAnalytics } from '@ionic-native/google-analytics/ngx';
   imports: [BrowserModule,
      IonicModule.forRoot(), 
      AppRoutingModule,
-     ComponentsModule],
+     ComponentsModule,
+     HttpClientModule],
   providers: [
     StatusBar,
     SplashScreen,
