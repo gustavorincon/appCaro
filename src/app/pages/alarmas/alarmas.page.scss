@@ -1,0 +1,9 @@
+ion-segment-button {
+    background-color: var( --ion-color-danger) !important;
+    color: white !important;
+}
+
+.segment-button-checked {
+    background-color: var(--ion-color-light) !important;
+    color: var( --ion-color-danger) !important;
+}

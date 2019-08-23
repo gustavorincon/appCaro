@@ -26,3 +26,7 @@ $datetime-ios-placeholder-color: rgb(199, 32, 32) !important;
 --border-color {
     color: rgb(199, 32, 32);
 }
+
+.datetime-checked {
+    color: var( --ion-color-danger) !important;
+}

@@ -1,5 +1,13 @@
 <app-header titulo="Tus alarmas"></app-header>
 
 <ion-content>
-alarmas
+    <ion-segment scrollable mode="md" color="danger" (ionChange)="cambioCategoria( $event )">
+
+        <ion-segment-button mode="md" *ngFor="let categoria of categorias" [value]="categoria">
+            <ion-label text-capitalize>{{ categoria }}</ion-label>
+        </ion-segment-button>
+
+
+    </ion-segment>
+    alarmas
 </ion-content>
