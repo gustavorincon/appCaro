@@ -15,3 +15,13 @@
 .datetime-checked {
     color: var( --ion-color-danger) !important;
 }
+
+.picker-opt.picker-opt-selected,
+.picker-prefix,
+.picker-suffix {
+    color: red;
+}
+
+.backdrop-no-scroll .picker-wrapper .picker-columns .picker-opt-selected {
+    color: red;
+}
