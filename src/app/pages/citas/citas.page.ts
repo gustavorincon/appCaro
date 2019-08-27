@@ -1,5 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { IonSegment } from '@ionic/angular';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { IonSegment, IonSlides } from '@ionic/angular';
 import { NavController } from '@ionic/angular';
 import { SEMANAS } from '../../constant/constant';
 import { Embarazada } from '../../models/embarazada';
@@ -15,7 +15,10 @@ export class CitasPage implements OnInit {
   mostrarCuidados:Boolean;
   mostrarAlimentacion:Boolean;
   embarazada:Embarazada;
+  semanaActual:Number=0;
   slideOpts={}
+ @ViewChild('testSlider', {static: false}) slider: IonSlides;
+ 
   
 
   ocultar = '';
@@ -49,6 +52,7 @@ export class CitasPage implements OnInit {
   });
   }
 
+
   onClick() {
     this.ocultar = 'animated fadeOut fast';
     this.navCtrl.navigateBack('/');
@@ -66,15 +70,21 @@ export class CitasPage implements OnInit {
   }
 
 
-
-    console.log(valorSegmento);
-
   }
 
   setVariables(){
     this.mostrarExamenes=false;
     this.mostrarCuidados=false;
     this.mostrarAlimentacion=false;
+  }
+
+  getIndex(event) {
+    this.slider.getActiveIndex().then(
+      (index)=>{
+        this.semanaActual = index+1;
+        console.log(this.semanaActual);
+     });
+    
   }
 
 

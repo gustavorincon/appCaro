@@ -1,8 +1,8 @@
 <app-header titulo="Tu citas"></app-header>
 <ion-content>
 
-    <ion-slides pager="false" [options]="slideOpts" (ionSlideDidChange)="slideChanged()" style="height: 80%;">
-        <ion-slide *ngFor="let slide of slides" >
+    <ion-slides pager="false" [options]="slideOpts" #testSlider (ionSlideDidChange)="getIndex($event)" style="height: 80%;">
+        <ion-slide *ngFor="let slide of slides">
             <ion-card class="properties-card">
                 <ion-card-header>
                     <ion-card-title> {{ slide.titulo }} </ion-card-title>
