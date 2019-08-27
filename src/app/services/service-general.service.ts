@@ -13,5 +13,9 @@ export class ServiceGeneralService {
 
   public getNoticias(): Observable<any> {
     return this.http.get("./assets/json/noticias.json");
+ }
+
+ public getCitas(): Observable<any> {
+  return this.http.get("./assets/json/citas.json");
 }
 }

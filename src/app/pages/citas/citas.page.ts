@@ -40,6 +40,13 @@ export class CitasPage implements OnInit {
     this.mostrarExamenes=true;
     this.mostrarCuidados=false;
     this.mostrarAlimentacion=false;
+    this.getNoticias();
+  }
+
+  getNoticias(){
+    this.serviceGeneralService.getCitas().subscribe(data => {
+      console.log(data.citas);
+  });
   }
 
   onClick() {
