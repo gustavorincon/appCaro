@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 import { DatePicker } from '@ionic-native/date-picker/ngx';
-import { GoogleAnalytics } from '@ionic-native/google-analytics/ngx';
+//import { GoogleAnalytics } from '@ionic-native/google-analytics/ngx';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -26,7 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     DatePicker,
-    GoogleAnalytics
+  //  GoogleAnalytics
   ],
   bootstrap: [AppComponent]
 })

@@ -25,16 +25,18 @@ export class CitasPage implements OnInit {
   publisher = '';
 
   constructor( private navCtrl: NavController, public serviceGeneralService:ServiceGeneralService ) { 
+    
+    
+  }
+
+  ngOnInit() {
+    console.log("holaaa");
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
     this.serviceGeneralService.viewButtomHeader=true;
     this.slideOpts = {
       initialSlide: Number(this.embarazada.numeroSemanas)-1,
       speed: 400
     };
-    console.log(this.embarazada);
-  }
-
-  ngOnInit() {
     this.mostrarExamenes=true;
     this.mostrarCuidados=false;
     this.mostrarAlimentacion=false;

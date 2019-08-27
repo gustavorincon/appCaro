@@ -31,3 +31,7 @@
 .backdrop-no-scroll .picker-wrapper .picker-columns .picker-opt-selected {
     color: red;
 }
+
+.picker-button.sc-ion-picker-md, .picker-button.activated.sc-ion-picker-md {
+    color: #f25454;
+}
