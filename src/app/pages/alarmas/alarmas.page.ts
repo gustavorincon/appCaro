@@ -10,7 +10,7 @@ import { ServiceGeneralService } from '../../services/service-general.service';
 export class AlarmasPage implements OnInit {
 
   //@ViewChild(IonSegment) segment: IonSegment;
-  categorias = ['business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology', ];
+  categorias = ['alarmas', 'nutrición', 'Actividad fisica', 'Educación' ];
 
   
 

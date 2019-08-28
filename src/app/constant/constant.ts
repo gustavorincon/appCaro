@@ -2,7 +2,7 @@ export const SEMANAS=[
     {
         img: '/assets/slides/semana1.png',
         titulo: 'Semana 1',
-        desc: 'Mira y comparte increíbles fotos de todo el mundo'
+        desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
       },
       {
         img: '/assets/slides/semana2.png',

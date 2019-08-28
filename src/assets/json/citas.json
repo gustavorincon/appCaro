@@ -1,82 +1,27 @@
 {
     "citas": [{
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow T",
-            "semana": 1,
-            "tipo": "T"
-        }, {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow T",
+            "titulo": "Calendario mestrual",
+            "descripcion": "Si hasta este momento no usas calendario menstrual, es importante empezarlo a utilizar para que te des cuenta de tu periodo de ovulación.",
             "semana": 1,
             "tipo": "T"
         },
         {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow T",
-            "semana": 1,
-            "tipo": "T"
-        },
-        {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow B",
-            "semana": 1,
-            "tipo": "B"
-        }, {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow B",
+            "titulo": "Comienzo del embarazo",
+            "descripcion": "En general el comienzo del embarazo se cuenta desde el siguiente día despues que se termine la menstruación,para este proceso debes tener en cuenta varios factores como si el padre esta preparado y sabe lo que es el embarazo, como tambien llevar una sana alimentación.",
             "semana": 1,
             "tipo": "B"
         },
         {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow B",
-            "semana": 1,
-            "tipo": "B"
-        },
-        {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow M",
-            "semana": 1,
-            "tipo": "M"
-        }, {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow M",
+            "titulo": "Preparacón del cuerpo",
+            "descripcion": "Debes realizar activiada fisíca,  tener buena alimentación de esta manera el proceso del embarazo podra llevarse de una mejor manera y tu cuerpo estara mejor preparado para el día del parto.",
             "semana": 1,
             "tipo": "M"
         },
         {
-            "titulo": "semana 1",
-            "descripcion": "dfiodiodioiow M",
-            "semana": 1,
-            "tipo": "M"
-        },
-        {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Alimetación",
+            "descripcion": "Dieta equilibrda",
             "semana": 2,
             "tipo": "T"
-        }, {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
-            "semana": 2,
-            "tipo": "T"
-        },
-        {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
-            "semana": 2,
-            "tipo": "T"
-        },
-        {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
-            "semana": 2,
-            "tipo": "B"
-        }, {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
-            "semana": 2,
-            "tipo": "B"
         },
         {
             "titulo": "semana 2",
@@ -89,28 +34,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 2,
             "tipo": "M"
-        }, {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
-            "semana": 2,
-            "tipo": "M"
-        },
-        {
-            "titulo": "semana 2",
-            "descripcion": "dfiodiodioiow",
-            "semana": 2,
-            "tipo": "M"
-        },
-        {
-            "titulo": "semana 3",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -123,28 +46,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 3,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -157,28 +58,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 4,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -191,28 +70,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 4,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -225,28 +82,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 5,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -259,28 +94,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 6,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -293,28 +106,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 6,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -327,28 +118,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 7,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -361,28 +130,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 8,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -395,28 +142,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 8,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -429,28 +154,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 9,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -463,28 +166,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 10,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -497,28 +178,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 10,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -531,28 +190,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 11,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -565,28 +202,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 12,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 12,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 12,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 12,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 12,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -599,28 +214,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 12,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 12,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 12,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -633,28 +226,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 13,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -667,28 +238,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 14,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -701,28 +250,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 14,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -735,32 +262,10 @@
             "descripcion": "dfiodiodioiow",
             "semana": 15,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "El embarazo empieza a producir cambios en la piel y el vello. Es relativamente normal que algunas mujeres noten un aumento del vello y a veces que aparecen pequeñas verrugas en el abdomen. También pueden aumentar el número de lunares o pecas, y a veces manchas en la cara.",
             "semana": 15,
             "tipo": "M"
         },
@@ -769,28 +274,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 16,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 16,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 16,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 16,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 16,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -799,36 +282,14 @@
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 16,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "El útero sigue creciendo y la altura uterina, medida desde el pubis al fondo del útero, es de unos 14 cm por lo que se suele notar como una masa dura en la parte más baja del abdomen. Dado que el útero está unido a la pared pélvica por unos ligamentos, al crecer el útero éstos se elongan y puede producir dolor en uno de los lados o en ambos, y puede aumentar con los movimientos que tensan estos ligamentos.",
             "semana": 16,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 16,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 17,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 17,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "dshdshds",
+            "descripcion": "jhdshdshdshds",
             "semana": 17,
             "tipo": "T"
         },
@@ -837,45 +298,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 17,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 17,
-            "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 17,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "la parte baja del abdomen ya se nota agrandada e hinchada y se ha perdido la cintura, por lo que los pantalones de embarazada, aunque quizá queden un poco grandes, serán una buena solución para estar cómoda.",
             "semana": 17,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 17,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 17,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -888,32 +316,10 @@
             "descripcion": "dfiodiodioiow",
             "semana": 18,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "El útero llega dos dedos por debajo del ombligo y habitualmente, la embarazada ha ganado unos 4 o 5 kg de peso. El aumento del tamaño de útero y las hormonas del embarazo condicionan una mayor dilatación de los vasos sanguíneos de la madre, siendo frecuente la aparición de pequeñas varices en las piernas, así como de arañas vasculares (dilataciones de pequeñas venas que se ven como manchas rojizas en la piel en forma de araña); habitualmente suelen disminuir en el posparto pero pueden no desaparecer completamente",
             "semana": 18,
             "tipo": "M"
         },
@@ -922,28 +328,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 19,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -952,19 +336,8 @@
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "Puede notar un aumento de flujo vaginal, más espeso que habitualmente; esto es normal y es debido al aumento de flujo sanguíneo en la mucosa vaginal. Por este aumento de flujo sanguíneo tanto en la vagina como en la vulva aparece un color violáceo, típico del embarazo",
             "semana": 19,
             "tipo": "M"
         },
@@ -973,28 +346,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 20,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "B"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1003,32 +354,10 @@
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "El útero se encuentra a la altura del ombligo. La embarazada se encuentra en la mitad del embarazo y, en estos momentos la respiración se hace más profunda y el ritmo cardíaco se acelera para compensar el sobreesfuerzo que debe hacer el sistema circulatorio de la mamá para bombear su sangre y la del feto.En esta etapa también es habitual sentirse cansada y con mucho sueño. Debido al aumento del volumen sanguíneo y el mayor tamaño del útero, puede ser que aparezcan palpitaciones, sofocos o mareos,sobre todo en situaciones estresantes o al acostarse boca arriba",
             "semana": 20,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1041,45 +370,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 21,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Cambios en tu cuerpo",
+            "descripcion": "En esta semana, también puede notarse la aparición de estrías. Esto ocurre porque la piel se está estirando para acomodar el crecimiento del útero. Las estrías son unas líneas en la piel que tienen diferente textura y pueden ser desde rosadas a marrones, dependiendo del color de la piel. Durante el embarazo se van haciendo más evidentes a medida que pasan los meses, pudiendo aparecer en la barriga, nalgas, muslos, caderas y pechos.",
             "semana": 21,
             "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1092,28 +388,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 22,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1126,45 +400,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 23,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 23,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1177,45 +418,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 24,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 24,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1228,45 +436,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 25,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 25,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1279,45 +454,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 26,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 26,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1330,45 +472,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 27,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 27,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1381,45 +490,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 28,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 28,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1432,45 +508,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 29,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 29,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1483,45 +526,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 30,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 30,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1534,45 +544,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 31,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 31,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1585,45 +562,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 32,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 32,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1636,45 +580,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 33,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 33,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1687,45 +598,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 34,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 34,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1738,45 +616,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 35,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 35,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1789,45 +634,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 36,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 36,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1840,45 +652,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 37,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 37,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1891,45 +670,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 38,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 38,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1942,45 +688,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 39,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 39,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -1993,45 +706,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 40,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 40,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -2044,45 +724,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 41,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 41,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -2095,45 +742,12 @@
             "descripcion": "dfiodiodioiow",
             "semana": 42,
             "tipo": "T"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 42,
             "tipo": "B"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "B"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "M"
-        }, {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "M"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",

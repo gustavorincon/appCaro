@@ -1,5 +1,5 @@
 <app-header titulo="Tu citas"></app-header>
-<ion-content>
+<ion-content view-cached="false">
 
     <ion-slides pager="false" [options]="slideOpts" #testSlider (ionSlideDidChange)="getIndex()" style="height: 80%;">
         <ion-slide *ngFor="let slide of slides">
@@ -17,47 +17,43 @@
 
     <ion-segment (ionChange)="segmentChanged($event)" color="danger" mode="ios">
 
-        <ion-segment-button value="E" checked>
+        <ion-segment-button value="T" checked>
             <ion-label>Tener en <br>cuenta</ion-label>
-            <ion-icon name="heart"></ion-icon>
         </ion-segment-button>
 
-        <ion-segment-button value="C">
+        <ion-segment-button value="M">
             <ion-label>Cambio <br>en ti</ion-label>
-            <ion-icon name="heart"></ion-icon>
         </ion-segment-button>
 
-        <ion-segment-button value="A">
+        <ion-segment-button value="B">
             <ion-label>Cambios <br>en tu bebé</ion-label>
-            <ion-icon name="heart"></ion-icon>
         </ion-segment-button>
 
     </ion-segment>
-    <ion-list class="animated fadeIn fast" *ngIf="mostrarExamenes">
-        <ion-item *ngFor="let item of tenerCuenta">
-            <ion-label>
-                <h3>{{item.titulo}}</h3>
-                <p>{{item.descripcion}}</p>
-            </ion-label>
-        </ion-item>
-    </ion-list>
 
-    <!-- List of Input Items -->
-    <ion-list class="animated fadeIn fast" *ngIf="mostrarCuidados">
-        <ion-item *ngFor="let item of cambioEnTi">
-            <ion-label>
-                <h3>{{item.titulo}}</h3>
-                <p>{{item.descripcion}}</p>
-            </ion-label>
-        </ion-item>
-    </ion-list>
+    <ion-card *ngIf="mostrartenerCuenta">
+        <ion-card-header>
+            <ion-card-title>{{titulo1}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            {{descripcion1}}
+        </ion-card-content>
+    </ion-card>
 
-    <ion-list *ngIf="mostrarAlimentacion">
-        <ion-item *ngFor="let item of cambiosBebe">
-            <ion-label>
-                <h3>{{item.titulo}}</h3>
-                <p>{{item.descripcion}}</p>
-            </ion-label>
-        </ion-item>
-    </ion-list>
+    <ion-card *ngIf="mostrarCambioTu">
+        <ion-card-header>
+            <ion-card-title>{{titulo2}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            {{descripcion2}}
+        </ion-card-content>
+    </ion-card>
+    <ion-card *ngIf="mostrarCabiosBebe">
+        <ion-card-header>
+            <ion-card-title>{{titulo3}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            {{descripcion3}}
+        </ion-card-content>
+    </ion-card>
 </ion-content>
