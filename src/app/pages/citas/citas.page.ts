@@ -16,7 +16,12 @@ export class CitasPage implements OnInit {
   mostrarAlimentacion:Boolean;
   embarazada:Embarazada;
   semanaActual:Number=0;
-  slideOpts={}
+  slideOpts={};
+  public citas:Array<any>;
+  public tenerCuenta:Array<any>;
+  public cambioEnTi:Array<any>;
+  public cambiosBebe:Array<any>;
+  
  @ViewChild('testSlider', {static: false}) slider: IonSlides;
  
   
@@ -28,12 +33,14 @@ export class CitasPage implements OnInit {
   publisher = '';
 
   constructor( private navCtrl: NavController, public serviceGeneralService:ServiceGeneralService ) { 
-    
+ 
+    this.tenerCuenta= new Array<any>();
+    this.cambioEnTi= new Array<any>();
+    this.cambiosBebe= new Array<any>();
     
   }
 
   ngOnInit() {
-    console.log("holaaa");
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
     this.serviceGeneralService.viewButtomHeader=true;
     this.slideOpts = {
@@ -43,12 +50,13 @@ export class CitasPage implements OnInit {
     this.mostrarExamenes=true;
     this.mostrarCuidados=false;
     this.mostrarAlimentacion=false;
-    this.getNoticias();
+    this.getCitas();
   }
 
-  getNoticias(){
+  getCitas(){
     this.serviceGeneralService.getCitas().subscribe(data => {
-      console.log(data.citas);
+      this.citas=data.citas;
+      this.getIndex();
   });
   }
 
@@ -78,13 +86,32 @@ export class CitasPage implements OnInit {
     this.mostrarAlimentacion=false;
   }
 
-  getIndex(event) {
+  getIndex() {
     this.slider.getActiveIndex().then(
       (index)=>{
         this.semanaActual = index+1;
-        console.log(this.semanaActual);
+        this.tenerCuenta= new Array<any>();
+        this.cambioEnTi= new Array<any>();
+        this.cambiosBebe= new Array<any>();
+        this.llenarlistas(this.semanaActual);
      });
     
+  }
+
+
+  llenarlistas(semanaActual){
+    this.citas.forEach(element => {
+      if(element.semana==semanaActual){
+        if(element.tipo=="T"){
+          this.tenerCuenta.push(element);
+        }else if(element.tipo=="B"){
+          this.cambiosBebe.push(element);
+        }else{
+          this.cambioEnTi.push(element);
+        }
+      }
+    });
+
   }
 
 
