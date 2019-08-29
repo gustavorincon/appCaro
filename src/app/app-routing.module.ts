@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'citas', loadChildren: './pages/citas/citas.module#CitasPageModule' },
   { path: 'alarmas', loadChildren: './pages/alarmas/alarmas.module#AlarmasPageModule' },
   { path: 'informate', loadChildren: './pages/informate/informate.module#InformatePageModule' }
+
 ];
 
 @NgModule({

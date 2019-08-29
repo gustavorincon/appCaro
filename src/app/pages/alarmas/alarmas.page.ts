@@ -1,6 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { IonSegment } from '@ionic/angular';
+import { IonSegment, NavController, ModalController } from '@ionic/angular';
 import { ServiceGeneralService } from '../../services/service-general.service';
+import { Router } from '@angular/router';
+import { DetalleComponent } from '../../components/detalle/detalle.component';
+
 
 @Component({
   selector: 'app-alarmas',
@@ -32,7 +35,9 @@ export class AlarmasPage implements OnInit {
 
   
 
-  constructor(public serviceGeneralService:ServiceGeneralService) { 
+  constructor(public serviceGeneralService:ServiceGeneralService,private router:Router,
+     private navCtrl: NavController,
+     private modalCtrl: ModalController) { 
     this.listaAlarmas= new Array<any>();
     this.listaRespuesta= new Array<any>();
   }
@@ -54,6 +59,19 @@ export class AlarmasPage implements OnInit {
         this.listaRespuesta.push(element);
       }
     });
+  }
+
+  async cambiarPagina( id: string ) {
+
+    const modal = await this.modalCtrl.create({
+      component: DetalleComponent,
+      componentProps: {
+        id
+      }
+    });
+
+    modal.present();
+
   }
 
 }
