@@ -9,12 +9,33 @@ import { ServiceGeneralService } from '../../services/service-general.service';
 })
 export class AlarmasPage implements OnInit {
 
-  //@ViewChild(IonSegment) segment: IonSegment;
-  categorias = ['alarmas', 'nutrición', 'Actividad fisica', 'Educación' ];
+  categorias = [
+    {
+      "nombre":"alarmas",
+      "tipo":"A"
+    },
+    {
+      "nombre":"nutrición",
+      "tipo":"N"
+    },
+    {
+      "nombre":"Actividad fisica",
+      "tipo":"F"
+    },
+    {
+      "nombre":"Educación",
+      "tipo":"E"
+    }
+    ];
+  listaAlarmas:Array<any>;
+  listaRespuesta:Array<any>;
 
   
 
-  constructor(public serviceGeneralService:ServiceGeneralService) { }
+  constructor(public serviceGeneralService:ServiceGeneralService) { 
+    this.listaAlarmas= new Array<any>();
+    this.listaRespuesta= new Array<any>();
+  }
 
   ngOnInit() {
     this.getNoticias();
@@ -22,8 +43,17 @@ export class AlarmasPage implements OnInit {
 
   getNoticias(){
     this.serviceGeneralService.getNoticias().subscribe(data => {
-      console.log(data.noticias);
+      this.listaAlarmas=data.noticias;
   });
+  }
+
+  getLista(tipo){
+    this.listaRespuesta= new Array<any>();
+    this.listaAlarmas.forEach(element => {
+      if(element.tipo==tipo){
+        this.listaRespuesta.push(element);
+      }
+    });
   }
 
 }

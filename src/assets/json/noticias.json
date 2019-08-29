@@ -1,15 +1,100 @@
 {
     "noticias": [{
             "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow"
+            "descripcion": "dfiodiodioiow",
+            "tipo": "A",
+            "button": false
         }, {
             "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow"
+            "descripcion": "dfiodiodioiow",
+            "tipo": "A",
+            "button": false
 
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow"
+            "descripcion": "dfiodiodioiow",
+            "tipo": "A",
+            "button": false
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "A",
+            "button": false
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "N",
+            "button": false
+        }, {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "N",
+            "button": false
+
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "N",
+            "button": false
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "N",
+            "button": false
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "F",
+            "button": true
+        }, {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "F",
+            "button": true
+
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "F",
+            "button": true
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "F",
+            "button": true
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "E",
+            "button": false
+        }, {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "E",
+            "button": false
+
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "E",
+            "button": false
+        },
+        {
+            "titulo": "dsdjudsjdsjdsjsd",
+            "descripcion": "dfiodiodioiow",
+            "tipo": "E",
+            "button": false
         }
+
     ]
 }

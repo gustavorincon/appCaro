@@ -1,13 +1,25 @@
 <app-header titulo="Tus alarmas"></app-header>
 
 <ion-content>
-    <ion-segment scrollable mode="md" color="danger" (ionChange)="cambioCategoria( $event )">
+    <ion-segment scrollable mode="md" color="danger">
 
-        <ion-segment-button mode="md" *ngFor="let categoria of categorias" [value]="categoria">
-            <ion-label text-capitalize>{{ categoria }}</ion-label>
+        <ion-segment-button (ionSelect)="getLista( categoria.tipo )" mode="md" *ngFor="let categoria of categorias" [value]="categoria">
+            <ion-label text-capitalize>{{ categoria.nombre }}</ion-label>
         </ion-segment-button>
 
 
     </ion-segment>
-    alarmas
+    <ion-list>
+        <ion-item *ngFor="let respuesta of listaRespuesta">
+            <ion-label>
+                <h2>{{respuesta.titulo}}</h2>
+                <h3>{{respuesta.descripcion}}</h3>
+            </ion-label>
+            <ion-label text-right *ngIf="respuesta.button">
+                <ion-button color="danger">
+                    <ion-icon name="ios-arrow-forward"></ion-icon>
+                </ion-button>
+            </ion-label>
+        </ion-item>
+    </ion-list>
 </ion-content>
