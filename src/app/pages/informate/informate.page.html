@@ -1,6 +1,6 @@
 <app-header titulo="Modifica información"></app-header>
 <ion-content>
-    <form [formGroup]="myForm" (ngSubmit)="save()">
+    <form [formGroup]="serviceGeneralService.myForm" (ngSubmit)="serviceGeneralService.save(2)">
         <ion-list color="tertiary">
             <ion-list-header class="title bar">
                 Averigua la posible fecha de parto
@@ -8,21 +8,21 @@
             <ion-item>
                 <ion-icon name="calendar" item-start></ion-icon>
                 <ion-label> ultima mestruación</ion-label>
-                <ion-datetime displayFormat="MMM DD, YYYY" monthShortNames="Enero, Febrero, Marzo, Abril, Mayo, Junio,Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre" formControlName="fecha" (ionChange)="calcularFechaParto( $event )"></ion-datetime>
+                <ion-datetime displayFormat="MMM DD, YYYY" monthShortNames="Enero, Febrero, Marzo, Abril, Mayo, Junio,Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre" formControlName="fecha" (ionChange)="serviceGeneralService.calcularFechaParto( $event )"></ion-datetime>
             </ion-item>
             <ion-item class="bar">
                 <ion-label class="title hola">Fecha de parto</ion-label>
             </ion-item>
             <ion-item class="bar">
-                <ion-label>{{fechaParto}}</ion-label>
+                <ion-label>{{serviceGeneralService.fechaParto}}</ion-label>
             </ion-item>
             <ion-item class="bar">
                 <ion-label class="title">Edad gestacional</ion-label>
             </ion-item>
             <ion-item class="bar">
-                <ion-label>{{numeroSemanas}} semanas {{numeroDias}} días</ion-label>
+                <ion-label>{{serviceGeneralService.numeroSemanas}} semanas {{serviceGeneralService.numeroDias}} días</ion-label>
             </ion-item>
-            <ion-button class="propertiesButton" shape="round" expand="full" color="danger" expand="full" type="submit" [disabled]="myForm.invalid">
+            <ion-button class="propertiesButton" shape="round" expand="full" color="danger" expand="full" type="submit" [disabled]="serviceGeneralService.myForm.invalid">
                 Editar
             </ion-button>
         </ion-list>

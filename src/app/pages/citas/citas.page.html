@@ -1,21 +1,21 @@
 <app-header titulo="Tu citas"></app-header>
 <ion-content view-cached="false">
 
-    <ion-slides pager="false" [options]="slideOpts" #testSlider (ionSlideDidChange)="getIndex()" style="height: 80%;">
-        <ion-slide *ngFor="let slide of slides">
-            <ion-card class="properties-card">
-                <ion-card-header>
-                    <ion-card-title> {{ slide.titulo }} </ion-card-title>
-                </ion-card-header>
-                <img [src]="slide.img">
-                <ion-card-content>
-                    {{ slide.desc }}
-                </ion-card-content>
-            </ion-card>
-        </ion-slide>
-    </ion-slides>
+    <!-- <ion-slides pager="false" [options]="slideOpts" #testSlider (ionSlideDidChange)="getIndex()" style="height: 80%;">
+        <ion-slide *ngFor="let slide of slides">-->
+    <ion-card class="properties-card">
+        <ion-card-header>
+            <ion-card-title> {{ serviceGeneralService.tituloActual }} </ion-card-title>
+        </ion-card-header>
+        <img [src]="serviceGeneralService.imagenActual">
+        <ion-card-content>
+            {{ serviceGeneralService.descripcionActual }}
+        </ion-card-content>
+    </ion-card>
+    <!--  </ion-slide>
+    </ion-slides>-->
 
-    <ion-segment (ionChange)="segmentChanged($event)" color="danger" mode="ios">
+    <ion-segment (ionChange)="serviceGeneralService.segmentChanged($event)" color="danger" mode="ios">
 
         <ion-segment-button value="T" checked>
             <ion-label>Tener en <br>cuenta</ion-label>
@@ -31,29 +31,29 @@
 
     </ion-segment>
 
-    <ion-card *ngIf="mostrartenerCuenta">
+    <ion-card *ngIf="serviceGeneralService.mostrartenerCuenta">
         <ion-card-header>
-            <ion-card-title>{{titulo1}}</ion-card-title>
+            <ion-card-title>{{serviceGeneralService.titulo1}}</ion-card-title>
         </ion-card-header>
         <ion-card-content>
-            {{descripcion1}}
+            {{serviceGeneralService.descripcion1}}
         </ion-card-content>
     </ion-card>
 
-    <ion-card *ngIf="mostrarCambioTu">
+    <ion-card *ngIf="serviceGeneralService.mostrarCambioTu">
         <ion-card-header>
-            <ion-card-title>{{titulo2}}</ion-card-title>
+            <ion-card-title>{{serviceGeneralService.titulo2}}</ion-card-title>
         </ion-card-header>
         <ion-card-content>
-            {{descripcion2}}
+            {{serviceGeneralService.descripcion2}}
         </ion-card-content>
     </ion-card>
-    <ion-card *ngIf="mostrarCabiosBebe">
+    <ion-card *ngIf="serviceGeneralService.mostrarCabiosBebe">
         <ion-card-header>
-            <ion-card-title>{{titulo3}}</ion-card-title>
+            <ion-card-title>{{serviceGeneralService.titulo3}}</ion-card-title>
         </ion-card-header>
         <ion-card-content>
-            {{descripcion3}}
+            {{serviceGeneralService.descripcion3}}
         </ion-card-content>
     </ion-card>
 </ion-content>

@@ -1,7 +1,7 @@
 <app-header titulo="Bienvenida mamá"></app-header>
 
 <ion-content>
-    <form [formGroup]="myForm" (ngSubmit)="save()">
+    <form [formGroup]="serviceGeneralService.myForm" (ngSubmit)="serviceGeneralService.save(1)">
         <ion-list color="tertiary">
             <ion-list-header class="title bar">
                 Averigua la posible fecha de parto
@@ -9,9 +9,7 @@
             <ion-item>
                 <ion-icon name="calendar" item-start></ion-icon>
                 <ion-label> ultima mestruación</ion-label>
-                <!-- <ion-datetime color="danger" placeholder="Nacimiento" display-format="YYYY MMMM DD" [dayShortNames]="customDayShortNames" cancelText="Cancelar!!!" formControlName="fecha" (ionChange)="calcularFechaParto( $event )" monthShortNames="jan, feb, mar, apr, mai, jun, jul, aug, sep, okt, nov, des">
-                </ion-datetime>-->
-                <ion-datetime displayFormat="MMM DD, YYYY" monthShortNames="Enero, Febrero, Marzo, Abril, Mayo, Junio,Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre" formControlName="fecha" (ionChange)="calcularFechaParto( $event )"></ion-datetime>
+                <ion-datetime displayFormat="MMM DD, YYYY" monthShortNames="Enero, Febrero, Marzo, Abril, Mayo, Junio,Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre" formControlName="fecha" (ionChange)="serviceGeneralService.calcularFechaParto( $event )"></ion-datetime>
             </ion-item>
 
 
@@ -20,7 +18,7 @@
             </ion-item>
 
             <ion-item class="bar">
-                <ion-label>{{fechaParto}}</ion-label>
+                <ion-label>{{serviceGeneralService.fechaParto}}</ion-label>
             </ion-item>
 
             <ion-item class="bar">
@@ -28,9 +26,9 @@
             </ion-item>
 
             <ion-item class="bar">
-                <ion-label>{{numeroSemanas}} semanas {{numeroDias}} días</ion-label>
+                <ion-label>{{serviceGeneralService.numeroSemanas}} semanas {{serviceGeneralService.numeroDias}} días</ion-label>
             </ion-item>
-            <ion-button class="propertiesButton" shape="round" expand="full" color="danger" expand="full" type="submit" [disabled]="myForm.invalid">
+            <ion-button class="propertiesButton" shape="round" expand="full" color="danger" expand="full" type="submit" [disabled]="serviceGeneralService.myForm.invalid">
                 Guardar
             </ion-button>
 

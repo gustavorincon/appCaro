@@ -12,24 +12,10 @@ import { DetalleComponent } from '../../components/detalle/detalle.component';
 })
 export class AlarmasPage implements OnInit {
 
-  categorias = [
-    {
-      "nombre":"alarmas",
-      "tipo":"A"
-    },
-    {
-      "nombre":"nutrición",
-      "tipo":"N"
-    },
-    {
-      "nombre":"Actividad fisica",
-      "tipo":"F"
-    },
-    {
-      "nombre":"Educación",
-      "tipo":"E"
-    }
-    ];
+  @ViewChild(IonSegment,{static: false}) segment: IonSegment;
+
+  categorias = ['alarmas','nutrición','Actividad fisica','Educación'];
+
   listaAlarmas:Array<any>;
   listaRespuesta:Array<any>;
 
@@ -44,6 +30,8 @@ export class AlarmasPage implements OnInit {
 
   ngOnInit() {
     this.getNoticias();
+    console.log(this.segment);
+    this.segment.value = this.categorias[0];
   }
 
   getNoticias(){
@@ -52,21 +40,21 @@ export class AlarmasPage implements OnInit {
   });
   }
 
-  getLista(tipo){
+  getLista(event){
     this.listaRespuesta= new Array<any>();
     this.listaAlarmas.forEach(element => {
-      if(element.tipo==tipo){
+      if(element.tipo==event.detail.value){
         this.listaRespuesta.push(element);
       }
     });
   }
 
-  async cambiarPagina( id: string ) {
+  async cambiarPagina( actividad) {
 
     const modal = await this.modalCtrl.create({
       component: DetalleComponent,
       componentProps: {
-        id
+        actividad
       }
     });
 

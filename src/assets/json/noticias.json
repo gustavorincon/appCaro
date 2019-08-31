@@ -3,13 +3,13 @@
             "id": 1,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "A",
+            "tipo": "alarmas",
             "button": false
         }, {
             "id": 2,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "A",
+            "tipo": "alarmas",
             "button": false
 
         },
@@ -17,28 +17,28 @@
             "id": 3,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "A",
+            "tipo": "alarmas",
             "button": false
         },
         {
             "id": 4,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "A",
+            "tipo": "alarmas",
             "button": false
         },
         {
             "id": 5,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "N",
+            "tipo": "nutrición",
             "button": false
         },
         {
             "id": 6,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "N",
+            "tipo": "nutrición",
             "button": false
 
         },
@@ -46,28 +46,28 @@
             "id": 7,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "N",
+            "tipo": "nutrición",
             "button": false
         },
         {
             "id": 8,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "N",
+            "tipo": "nutrición",
             "button": false
         },
         {
             "id": 10,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "F",
+            "tipo": "Actividad fisica",
             "button": true
         },
         {
             "id": 11,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "F",
+            "tipo": "Actividad fisica",
             "button": true
 
         },
@@ -75,28 +75,28 @@
             "id": 12,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "F",
+            "tipo": "Actividad fisica",
             "button": true
         },
         {
             "id": 13,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "F",
+            "tipo": "Actividad fisica",
             "button": true
         },
         {
             "id": 14,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "E",
+            "tipo": "Educación",
             "button": false
         },
         {
             "id": 15,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "E",
+            "tipo": "Educación",
             "button": false
 
         },
@@ -104,14 +104,14 @@
             "id": 16,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "E",
+            "tipo": "Educación",
             "button": false
         },
         {
             "id": 17,
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
-            "tipo": "E",
+            "tipo": "Educación",
             "button": false
         }
 

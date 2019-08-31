@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 
 @Component({
@@ -8,9 +8,13 @@ import { ModalController } from '@ionic/angular';
 })
 export class DetalleComponent implements OnInit {
 
+  @Input() actividad;
+
   constructor( private modalCtrl: ModalController) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(this.actividad);
+  }
 
 
   regresar() {

@@ -1,10 +1,10 @@
 <app-header titulo="Tus alarmas"></app-header>
 
 <ion-content>
-    <ion-segment scrollable mode="md" color="danger">
+    <ion-segment #testSegment scrollable mode="md" color="danger" (ionChange)="getLista( $event )">
 
-        <ion-segment-button (ionSelect)="getLista( categoria.tipo )" mode="md" *ngFor="let categoria of categorias" [value]="categoria">
-            <ion-label text-capitalize>{{ categoria.nombre }}</ion-label>
+        <ion-segment-button mode="md" *ngFor="let categoria of categorias" [value]="categoria">
+            <ion-label text-capitalize>{{ categoria }}</ion-label>
         </ion-segment-button>
 
 
@@ -16,7 +16,7 @@
                 <h3>{{respuesta.descripcion}}</h3>
             </ion-label>
             <ion-label text-right *ngIf="respuesta.button">
-                <ion-button color="danger" (click)="cambiarPagina( respuesta.id )">
+                <ion-button color="danger" (click)="cambiarPagina( respuesta )">
                     <ion-icon name="ios-arrow-forward"></ion-icon>
                 </ion-button>
             </ion-label>
