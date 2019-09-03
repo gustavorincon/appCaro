@@ -120,9 +120,6 @@ export class ServiceGeneralService {
          this.imagenActual=element.img;
       }
     });
-    console.log(  this.descripcionActual);
-    console.log( this.tituloActual);
-    console.log( this.imagenActual);
     this.titulo1="";
     this.descripcion1="";
     this.titulo2="";
@@ -172,7 +169,6 @@ export class ServiceGeneralService {
 
 
   public actualizarValor(){
-    console.log("actualizar valores");
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
     if(this.embarazada!=null){
       this.edadGestacion=this.embarazada.EdadGestacion;
@@ -191,5 +187,10 @@ export class ServiceGeneralService {
 
  public getCitas(): Observable<any> {
   return this.http.get("./assets/json/citas.json");
-}
+ }
+
+  public getControles(): Observable<any> {
+  return this.http.get("./assets/json/controles.json");
+ }
+
 }
