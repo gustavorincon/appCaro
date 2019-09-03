@@ -13,19 +13,8 @@ import { ServiceGeneralService } from '../../services/service-general.service';
 export class CitasPage implements OnInit,AfterViewInit {
  
   embarazada:Embarazada;
- 
-
-  
-  
- 
-  
-
   ocultar = '';
-
-  
-
   publisher = '';
-
   constructor( private navCtrl: NavController, public serviceGeneralService:ServiceGeneralService ) { 
      
   }

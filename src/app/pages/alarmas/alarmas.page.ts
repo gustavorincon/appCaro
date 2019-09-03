@@ -31,7 +31,7 @@ export class AlarmasPage implements OnInit {
   ngOnInit() {
     this.getNoticias();
     console.log(this.segment);
-    this.segment.value = this.categorias[0];
+   // this.segment.value = this.categorias[0];
   }
 
   getNoticias(){
