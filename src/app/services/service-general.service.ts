@@ -3,8 +3,9 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { FormGroup, Validators,FormBuilder} from '@angular/forms';
 import { Embarazada } from '../models/embarazada';
-import { NavController } from '@ionic/angular';
-import { SEMANAS } from '../constant/constant';
+import { NavController, ModalController } from '@ionic/angular';
+import { SEMANAS, CONTROLES } from '../constant/constant';
+import { DetalleComponent } from '../components/detalle/detalle.component';
 
 @Injectable({
   providedIn: 'root'
@@ -42,10 +43,15 @@ export class ServiceGeneralService {
   public descripcionActual:String;
   public imagenActual:String;
   slides: {id:Number, img: string, titulo: string, desc: string }[] = SEMANAS;
+  controles:{id:Number, img: string, titulo: string, desc: string}[]=CONTROLES;
+  
 
 
  
-  constructor(private http: HttpClient,public navCtrl: NavController,public formBuilder: FormBuilder) {
+  constructor(private http: HttpClient,
+              public navCtrl: NavController,
+              public formBuilder: FormBuilder,
+              private modalCtrl: ModalController) {
     
     this.mostrartenerCuenta=true;
     this.mostrarCambioTu=false;
@@ -179,6 +185,19 @@ export class ServiceGeneralService {
     }else{
       this.embarazada= new Embarazada('','',0,0,0);
     }
+  }
+
+  async cambiarPagina( actividad) {
+
+    const modal = await this.modalCtrl.create({
+      component: DetalleComponent,
+      componentProps: {
+        actividad
+      }
+    });
+
+    modal.present();
+
   }
 
   public getNoticias(): Observable<any> {

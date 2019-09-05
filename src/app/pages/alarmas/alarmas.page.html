@@ -16,7 +16,7 @@
                 <h3>{{respuesta.descripcion}}</h3>
             </ion-label>
             <ion-label text-right *ngIf="respuesta.button">
-                <ion-button color="danger" (click)="cambiarPagina( respuesta )">
+                <ion-button color="danger" (click)="serviceGeneralService.cambiarPagina( respuesta )">
                     <ion-icon name="ios-arrow-forward"></ion-icon>
                 </ion-button>
             </ion-label>

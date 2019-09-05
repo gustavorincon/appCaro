@@ -4,27 +4,23 @@
     <ion-list>
         <ion-item>
             <ion-label>Semanas</ion-label>
-            <ion-select value="brown" okText="Aceptar" cancelText="Cancelar">
-                <ion-select-option *ngFor="let semana of serviceGeneralService.slides" [value]="semana.id">{{semana.titulo}}</ion-select-option>
+            <ion-select value="brown" mode="ios" okText="Aceptar" cancelText="Cancelar">
+                <ion-select-option *ngFor="let semana of serviceGeneralService.controles" [value]="semana.id">{{semana.titulo}}</ion-select-option>
             </ion-select>
         </ion-item>
+
         <ion-list-header class="title bar">
-            <h3>Citas</h3>
+            <h3>Controles</h3>
         </ion-list-header>
-        <ion-item>
-            <ion-label>Pokémon Yellow</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Mega Man X</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>The Legend of Zelda</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Pac-Man</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Super Mario World</ion-label>
+        <ion-item *ngFor="let semana of serviceGeneralService.controles">
+            <ion-label>
+                <h2>{{semana.titulo}}</h2>
+            </ion-label>
+            <ion-label text-right>
+                <ion-button color="danger" (click)="serviceGeneralService.cambiarPagina( semana )">
+                    <ion-icon name="ios-arrow-forward"></ion-icon>
+                </ion-button>
+            </ion-label>
         </ion-item>
     </ion-list>
 </ion-content>

@@ -49,17 +49,6 @@ export class AlarmasPage implements OnInit {
     });
   }
 
-  async cambiarPagina( actividad) {
 
-    const modal = await this.modalCtrl.create({
-      component: DetalleComponent,
-      componentProps: {
-        actividad
-      }
-    });
-
-    modal.present();
-
-  }
 
 }

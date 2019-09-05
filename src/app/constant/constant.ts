@@ -252,3 +252,115 @@ export const SEMANAS=[
         desc: 'Siempre sabremos donde estás!'
       }
 ]
+
+
+export const CONTROLES=[
+  {
+    id:1,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 3',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:2,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 6',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:3,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 7 y 9',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:4,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 8 y 12',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:5,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 12',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:6,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 13 y 15',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:7,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 20',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:8,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 22',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:9,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 24 y 28',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:10,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 26 y 32',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:11,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Apartir de semana 31 y 34',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:12,
+    img: '/assets/slides/semana1.png',
+    titulo: 'De la semana 33 y 37',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:13,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 35 y 37',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:14,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 37',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:15,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Semana 38',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:16,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 39 y 40',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:17,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Apartir semana 40',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  },
+  {
+    id:18,
+    img: '/assets/slides/semana1.png',
+    titulo: 'Entre semana 41 y 42',
+    desc: 'con la primera semana de embarazo empieza un precioso camino con numerosos cambios'
+  }
+]
