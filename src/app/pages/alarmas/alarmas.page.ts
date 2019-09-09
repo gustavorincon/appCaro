@@ -12,7 +12,7 @@ import { DetalleComponent } from '../../components/detalle/detalle.component';
 })
 export class AlarmasPage implements OnInit {
 
-  @ViewChild(IonSegment,{static: false}) segment: IonSegment;
+  @ViewChild(IonSegment,{static: true}) segment: IonSegment;
 
   categorias = ['alarmas','nutrición','Actividad fisica','Educación'];
 
@@ -29,21 +29,21 @@ export class AlarmasPage implements OnInit {
   }
 
   ngOnInit() {
-    this.getNoticias();
-    console.log(this.segment);
-   // this.segment.value = this.categorias[0];
+    this.segment.value = this.categorias[0];
+    this.getNoticias(this.categorias[0]);
   }
 
-  getNoticias(){
+  getNoticias(event){
     this.serviceGeneralService.getNoticias().subscribe(data => {
       this.listaAlarmas=data.noticias;
+      this.getLista( event );
   });
   }
 
   getLista(event){
     this.listaRespuesta= new Array<any>();
     this.listaAlarmas.forEach(element => {
-      if(element.tipo==event.detail.value){
+      if(element.tipo==event){
         this.listaRespuesta.push(element);
       }
     });

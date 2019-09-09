@@ -1,7 +1,7 @@
 <app-header titulo="Tus alarmas"></app-header>
 
 <ion-content>
-    <ion-segment #testSegment scrollable mode="md" color="danger" (ionChange)="getLista( $event )">
+    <ion-segment #testSegment scrollable mode="md" color="danger" (ionChange)="getLista( $event.detail.value )">
 
         <ion-segment-button mode="md" *ngFor="let categoria of categorias" [value]="categoria">
             <ion-label text-capitalize>{{ categoria }}</ion-label>

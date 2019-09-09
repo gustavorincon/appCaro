@@ -2,16 +2,6 @@
 
 <ion-content>
     <ion-list>
-        <ion-item>
-            <ion-label>Semanas</ion-label>
-            <ion-select value="brown" mode="ios" okText="Aceptar" cancelText="Cancelar">
-                <ion-select-option *ngFor="let semana of serviceGeneralService.controles" [value]="semana.id">{{semana.titulo}}</ion-select-option>
-            </ion-select>
-        </ion-item>
-
-        <ion-list-header class="title bar">
-            <h3>Controles</h3>
-        </ion-list-header>
         <ion-item *ngFor="let semana of serviceGeneralService.controles">
             <ion-label>
                 <h2>{{semana.titulo}}</h2>
