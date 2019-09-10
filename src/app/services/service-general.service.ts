@@ -93,7 +93,11 @@ export class ServiceGeneralService {
       let diferencia=fechaActual.getTime() - this.dateUltimaMestruacion.getTime();
       this.edadGestacion=(Math.floor(diferencia / (1000 * 60 * 60 * 24)))/7;
       this.edadGestacion=Number(this.edadGestacion.toFixed(1));
-      if (Number(this.edadGestacion) % 1 == 0) {
+      if(Number(this.edadGestacion)<1){
+        this.numeroSemanas= 1;
+        this.numeroDias=0;
+      }
+      else if (Number(this.edadGestacion) % 1 == 0) {
         this.numeroSemanas=this.edadGestacion;
         this.numeroDias=0;
        } else {
