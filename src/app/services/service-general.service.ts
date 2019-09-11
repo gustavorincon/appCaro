@@ -41,7 +41,7 @@ export class ServiceGeneralService {
 
   public tituloActual:String;
   public descripcionActual:String;
-  public imagenActual:String;
+  public imagenActual:Number;
   slides: {id:Number, img: string, titulo: string, desc: string }[] = SEMANAS;
   controles:{id:Number, img: string, titulo: string, desc: string}[]=CONTROLES;
   
@@ -121,13 +121,12 @@ export class ServiceGeneralService {
 
 
   getIndex(num) {
-    console.log(num);
     this.slides.forEach(element => {
       
       if(element.id==num){
          this.tituloActual= element.titulo;
          this.descripcionActual=element.desc;
-         this.imagenActual=element.img;
+         this.imagenActual=element.id;
       }
     });
     this.titulo1="";
