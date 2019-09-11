@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { Embarazada } from '../../models/embarazada';
+import {  FormBuilder } from '@angular/forms';
 import { ServiceGeneralService } from '../../services/service-general.service';
+
 
 @Component({
   selector: 'app-inicio',

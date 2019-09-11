@@ -6,6 +6,7 @@ import { Embarazada } from '../models/embarazada';
 import { NavController, ModalController } from '@ionic/angular';
 import { SEMANAS, CONTROLES } from '../constant/constant';
 import { DetalleComponent } from '../components/detalle/detalle.component';
+import { AlertGlobalService } from './alert-global.service';
 
 @Injectable({
   providedIn: 'root'
@@ -51,7 +52,8 @@ export class ServiceGeneralService {
   constructor(private http: HttpClient,
               public navCtrl: NavController,
               public formBuilder: FormBuilder,
-              private modalCtrl: ModalController) {
+              private modalCtrl: ModalController,
+              public alertGlobalService:AlertGlobalService) {
     
     this.mostrartenerCuenta=true;
     this.mostrarCambioTu=false;
@@ -82,6 +84,8 @@ export class ServiceGeneralService {
       localStorage.setItem('embarazada', JSON.stringify(this.embarazada));
       if(opt==1){
         this.navCtrl.navigateRoot("tabs/citas");
+      }else{
+        this.alertGlobalService.presentAlert('Atención','Infomación actualizada','Cerrar');
       }
     }
    }
