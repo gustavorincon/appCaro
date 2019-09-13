@@ -2,24 +2,19 @@
 
 <ion-content>
     <ion-segment #testSegment scrollable mode="md" color="danger" (ionChange)="getLista( $event.detail.value )">
-
         <ion-segment-button mode="md" *ngFor="let categoria of categorias" [value]="categoria">
             <ion-label text-capitalize>{{ categoria }}</ion-label>
         </ion-segment-button>
-
-
     </ion-segment>
     <ion-list>
         <ion-item *ngFor="let respuesta of listaRespuesta">
             <ion-label>
-                <h2>{{respuesta.titulo}}</h2>
-                <h3>{{respuesta.descripcion}}</h3>
+                <h2 class="text-title-item-list">{{respuesta.titulo}}</h2>
+                <h3>{{respuesta.descripcionCompleta}}</h3>
             </ion-label>
-            <ion-label text-right *ngIf="respuesta.button">
-                <ion-button color="danger" (click)="serviceGeneralService.cambiarPagina( respuesta )">
-                    <ion-icon name="ios-arrow-forward"></ion-icon>
-                </ion-button>
-            </ion-label>
+            <ion-button *ngIf="respuesta.button" size="small" color="danger" (click)="serviceGeneralService.cambiarPagina( respuesta )">
+                <ion-icon slot="end" name="ios-arrow-forward"></ion-icon>
+            </ion-button>
         </ion-item>
     </ion-list>
 </ion-content>

@@ -1,116 +1,207 @@
 {
     "noticias": [{
             "id": 1,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Fiebre",
+            "descripcionCompleta": "Puede indicar que existe alguna infección",
             "tipo": "alarmas",
             "button": false
         }, {
             "id": 2,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Sangrado vaginal",
+            "descripcionCompleta": "Este sintoma precisa revisión médica.",
             "tipo": "alarmas",
             "button": false
 
         },
         {
             "id": 3,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Prurito palmo-plantar",
+            "descripcionCompleta": " Picor  fundamentalmente en palmas de manos y pies",
             "tipo": "alarmas",
             "button": false
         },
         {
             "id": 4,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Dolor abdominal",
+            "descripcionCompleta": "Es importante ser valorada en un servicio obstétrico",
             "tipo": "alarmas",
             "button": false
         },
         {
             "id": 5,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "nutrición",
+            "titulo": "Contracciones uterinas",
+            "descripcionCompleta": "Si se producen antes de lo esperado",
+            "tipo": "alarmas",
             "button": false
         },
         {
             "id": 6,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "nutrición",
+            "titulo": "Pérdida de líquido amniótico",
+            "descripcionCompleta": "Es la sensación de pérdida de líquido por la vagina",
+            "tipo": "alarmas",
             "button": false
-
         },
         {
             "id": 7,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "nutrición",
+            "titulo": "Sin movimientos fetales",
+            "descripcionCompleta": "Cuando no sientes movimientos de tu bebe",
+            "tipo": "alarmas",
             "button": false
         },
         {
             "id": 8,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Tensión arterial elevada",
+            "descripcionCompleta": " si tienes la tensión arterial por encima de 140/90",
+            "tipo": "alarmas",
+            "button": false
+        },
+        {
+            "id": 9,
+            "titulo": "Huevos",
+            "descripcionCompleta": "Contiene importantes cantidades de vitamina B",
             "tipo": "nutrición",
             "button": false
         },
         {
             "id": 10,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "Actividad fisica",
-            "button": true
+            "titulo": "Frutas y verduras",
+            "descripcionCompleta": "Tienen fibra y son ricos en vitaminas y minerales",
+            "tipo": "nutrición",
+            "button": false
         },
         {
             "id": 11,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "Actividad fisica",
-            "button": true
+            "titulo": "Cereales",
+            "descripcionCompleta": "Ricos en  hidratos de carbono y grasas poliinsaturadas",
+            "tipo": "nutrición",
+            "button": false
 
         },
         {
             "id": 12,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "Actividad fisica",
-            "button": true
+            "titulo": "Legumbres",
+            "descripcionCompleta": "Ricas en proteínas,hidratos,fibra,minerales",
+            "tipo": "nutrición",
+            "button": false
         },
         {
             "id": 13,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "Actividad fisica",
-            "button": true
+            "titulo": "Carne",
+            "descripcionCompleta": "Se recomiendan las carnes magras",
+            "tipo": "nutrición",
+            "button": false
         },
         {
             "id": 14,
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "tipo": "Educación",
+            "titulo": "Pescado",
+            "descripcionCompleta": "Rico en yodo,proteínas y poco graso ",
+            "tipo": "nutrición",
             "button": false
         },
         {
             "id": 15,
+            "titulo": "Frutos secos",
+            "descripcionCompleta": "Son una rica fuente de aceites vegetales",
+            "tipo": "nutrición",
+            "button": false
+        },
+        {
+            "id": 16,
+            "titulo": "Lácteos",
+            "descripcionCompleta": "Son importante fuente de calcio",
+            "tipo": "nutrición",
+            "button": false
+        },
+        {
+            "id": 17,
+            "titulo": "Agua",
+            "descripcionCompleta": "Es la  base de la pirámide de la alimentación",
+            "tipo": "nutrición",
+            "button": false
+        },
+        {
+            "id": 18,
+            "titulo": "Caminatas",
+            "img": "/assets/ejercicios/caminata.jpg",
+            "descripcionCompleta": "Para mujeres sedentarias antes del embarazo",
+            "desc": "Ideal para mujeres que eran sedentarias antes de quedar embarazadas. Se debe utilizar ropa ligera y elástica y unos zapatos deportivos con buena amortiguación para prevenir lesiones, también se debe beber bastante agua para mantenerse bien hidratada. Se puede caminar de 3 a 5 veces por semana, preferiblemente en horas en las que el sol no esté muy fuerte.",
+            "tipo": "Actividad fisica",
+            "button": true
+        },
+        {
+            "id": 19,
+            "titulo": "Corrida leve",
+            "img": "/assets/ejercicios/trote.jpg",
+            "descripcionCompleta": "Para quien hace ejercicios antes del embarazo",
+            "desc": "Indicada para quien ya practicaba ejercicios antes de quedar embarazada. Se puede realizar durante los 9 meses de embarazo, 3 veces por semana, durante 30 minutos, pero con baja intensidad, respetando siempre su propio ritmo.",
+            "tipo": "Actividad fisica",
+            "button": true
+
+        },
+        {
+            "id": 20,
+            "titulo": "Pilates",
+            "img": "/assets/ejercicios/pilates.jpg",
+            "descripcionCompleta": "Mejora respiración,frecuencia cardíaca,músculos",
+            "desc": "Mejora la respiración, la frecuencia cardíaca, estira y fortalece los músculos y es excelente para la postura. Se puede practicar de 2 a 3 veces por semana.",
+            "tipo": "Actividad fisica",
+            "button": true
+        },
+        {
+            "id": 21,
+            "titulo": "Hidrogimnasia",
+            "img": "/assets/ejercicios/Hidrogimnasia.jpg",
+            "descripcionCompleta": "Reduce los dolores en los pies y en la espalda",
+            "desc": "Es indicada incluso para mujeres que eran sedentarias antes de quedar embarazadas y puede ser realizada durante los 9 meses de gestación. Reduce los dolores en los pies y en la espalda, así como la hinchazón de las piernas. Se puede realizar de 2 a 4 veces por semana.",
+            "tipo": "Actividad fisica",
+            "button": true
+        },
+        {
+            "id": 22,
+            "titulo": "Bicicleta estática",
+            "img": "/assets/ejercicios/bicicleta.jpg",
+            "descripcionCompleta": "Se realiza en lo 2 primeros trimestres de embarazo",
+            "desc": "Se puede realizar durante los 2 primeros trimestres de embarazo, durante 3 a 5 días a la semana. Se debe estar atenta a la frecuencia cardíaca, no dejando sobrepasar las 140 bpm y observar si la sudoración es excesiva. El tamaño de la barriga al final de la gestación puede dificultar la realización de esta actividad.",
+            "tipo": "Actividad fisica",
+            "button": true
+        },
+        {
+            "id": 23,
+            "titulo": "Estiramientos",
+            "img": "/assets/ejercicios/estiramiento.jpg",
+            "descripcionCompleta": "Estos pueden hecer diariamente hasta el nacimiento",
+            "desc": "Estos pueden ser realizados diariamente hasta el nacimiento, tanto por mujeres sedentarias como para experimentadas. Se puede comenzar con estiramientos más leves, y a medida que la mujer va desarrollando elasticidad, debe ir aumentando la dificultad de los estiramientos. Ver: Ejercicios de estiramiento en el embarazo.Para garantizar una actividad física segura es importante tener la orientación y acompañamiento de un profesional de Educación Física cualificado y la autorización del médico que está realizando el control prenatal. Si la embarazada siente cualquier síntoma desagradable como dolor abdominal, secreción o pérdida de sangre por la vagina, mientras realiza el ejercicio o algunas horas después de la clase deberá buscar ayuda médica.",
+            "tipo": "Actividad fisica",
+            "button": true
+        },
+        {
+            "id": 24,
+            "titulo": "Musculación leve",
+            "img": "/assets/ejercicios/pesas.jpg",
+            "descripcionCompleta": "Si tienes una rutina fuerte antes del embarazo",
+            "desc": "Las embarazadas que ya hacían pesas antes de quedar embarazadas y que tenían un buen acondicionamiento físico, pueden hacer ejercicios de musculación, sin embargo, se debe disminuir su intensidad, reduciendo los pesos por lo menos a la mitad para evitar la sobrecarga de la columna , rodillas, tobillos y del piso pélvico.",
+            "tipo": "Actividad fisica",
+            "button": true
+        },
+        {
+            "id": 25,
             "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "descripcionCompleta": "dfiodiodioiow",
             "tipo": "Educación",
             "button": false
 
         },
         {
-            "id": 16,
+            "id": 26,
             "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "descripcionCompleta": "dfiodiodioiow",
             "tipo": "Educación",
             "button": false
         },
         {
-            "id": 17,
+            "id": 27,
             "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "descripcionCompleta": "dfiodiodioiow",
             "tipo": "Educación",
             "button": false
         }

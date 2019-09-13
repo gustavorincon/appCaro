@@ -36,7 +36,6 @@ export class ServiceGeneralService {
   semanaActual:Number=0;
 
 
-  mostrartenerCuenta:Boolean;
   mostrarCambioTu:Boolean;
   mostrarCabiosBebe:Boolean;
 
@@ -55,8 +54,7 @@ export class ServiceGeneralService {
               private modalCtrl: ModalController,
               public alertGlobalService:AlertGlobalService) {
     
-    this.mostrartenerCuenta=true;
-    this.mostrarCambioTu=false;
+    this.mostrarCambioTu=true;
     this.mostrarCabiosBebe=false;
     this.embarazada=JSON.parse(localStorage.getItem('embarazada'));
     if(this.embarazada!=null){
@@ -164,9 +162,7 @@ export class ServiceGeneralService {
   segmentChanged( event ) {
     const valorSegmento = event.detail.value;
     this.setVariables();
-    if(valorSegmento=='T'){
-      this.mostrartenerCuenta=true;
-    }else if(valorSegmento=='M'){
+    if(valorSegmento=='M'){
       this.mostrarCambioTu=true;
     }else{
       this.mostrarCabiosBebe=true;
@@ -175,7 +171,6 @@ export class ServiceGeneralService {
 
     
   setVariables(){
-    this.mostrartenerCuenta=false;
     this.mostrarCambioTu=false;
     this.mostrarCabiosBebe=false;
   }

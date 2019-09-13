@@ -22,31 +22,14 @@
     </ion-card>
 
 
-    <ion-segment (ionChange)="serviceGeneralService.segmentChanged($event)" color="danger" mode="ios">
-
-        <ion-segment-button value="T" checked>
-            <ion-label>Tener en <br>cuenta</ion-label>
-        </ion-segment-button>
-
+    <ion-segment #testSegment (ionChange)="serviceGeneralService.segmentChanged($event)" color="danger" mode="ios">
         <ion-segment-button value="M">
             <ion-label>Cambio <br>en ti</ion-label>
         </ion-segment-button>
-
         <ion-segment-button value="B">
             <ion-label>Cambios <br>en tu bebé</ion-label>
         </ion-segment-button>
-
     </ion-segment>
-
-    <ion-card *ngIf="serviceGeneralService.mostrartenerCuenta">
-        <ion-card-header>
-            <ion-card-title>{{serviceGeneralService.titulo1}}</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-            {{serviceGeneralService.descripcion1}}
-        </ion-card-content>
-    </ion-card>
-
     <ion-card *ngIf="serviceGeneralService.mostrarCambioTu">
         <ion-card-header>
             <ion-card-title>{{serviceGeneralService.titulo2}}</ion-card-title>
