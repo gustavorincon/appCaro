@@ -1,11 +1,5 @@
 {
     "citas": [{
-            "titulo": "Calendario mestrual",
-            "descripcion": "Si hasta este momento no usas calendario menstrual, es importante empezarlo a utilizar para que te des cuenta de tu periodo de ovulación.",
-            "semana": 1,
-            "tipo": "T"
-        },
-        {
             "titulo": "Comienzo del embarazo",
             "descripcion": "En general el comienzo del embarazo se cuenta desde el siguiente día despues que se termine la menstruación,para este proceso debes tener en cuenta varios factores como si el padre esta preparado y sabe lo que es el embarazo, como tambien llevar una sana alimentación.",
             "semana": 1,
@@ -18,14 +12,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "Alimetación",
-            "descripcion": "Dieta equilibrda",
-            "semana": 2,
-            "tipo": "T"
-        },
-        {
             "titulo": "semana 2",
-            "descripcion": "",
+            "descripcion": "En esta semana se desarrolla lo que llamaremos embrión el cual cuenta con una cabeza, un tronco y una cola.",
             "semana": 2,
             "tipo": "B"
         },
@@ -36,14 +24,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 3,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 3",
+            "descripcion": "Ya queda poco para que empieces a sentir los primeros síntomas del embarazo,tus niveles de progesterona aumentan, lo cual es algo esencial para la supervivencia de el embrión y el correcto desarrollo del embarazo.",
             "semana": 3,
             "tipo": "B"
         },
@@ -54,14 +36,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 4,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 4",
+            "descripcion": "tu embrión es más pequeño que un grano de arroz, pero ya sus células van asumiendo su posición y rol en el desarrollo de tu bebé. Las capas exteriores se convertirán en el sistema nervioso, piel y pelo; la capa media formará sus huesos,músculos, sistema circulatorio, riñones y órganos sexuales; y la sección interior se encargará del sistema digestivo y pulmones.",
             "semana": 4,
             "tipo": "B"
         },
@@ -72,14 +48,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 5,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 5",
+            "descripcion": "Tu bebé ya tiene el tamaño de  una semilla de ajonjolí (sésamo). Todavía no se parece mucho a un bebé, por ahora parece más un renacuajito. En este momento está formado de tres capas de células, el ectodermo, el mesodermo y el endodermo, que más tarde formarán todos sus órganos y tejidos. El tubo neural (del que saldrán el cerebro, la médula espinal, los nervios y la columna vertebral) se está empezando a desarrollar en la capa superior, llamada ectodermo.",
             "semana": 5,
             "tipo": "B"
         },
@@ -90,14 +60,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 6,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 6",
+            "descripcion": "El embrión tiene ahora 14 somitas, que son los pilares del sistema musculo esquelético del bebé y mide 4 milímetros desde la coronilla hasta las nalgas. Esta semana 6 de embarazo es clave, además, porque su corazón está empezando a efectuar sus primeros y potentes latidos y porque el tubo neuronal que se convertirá en el cerebro y la médula espinal- se está empezando a cerrar. En su cabeza aparecerán dos pequeños hoyos a lado y lado que, después, darán paso a sus ojos; su cabeza se doblará hacia el cuerpo y en su cabeza y cuello se esbozarán la mandíbula inferior y su laringe. ¡Y todavía hay más! En su tren inferior se desarrollará una protuberancia parecida a una cola que, después, dará lugar a sus piernas. En el tren superior también aparecerán unos pequeños primordios que darán lugar a sus brazos.",
             "semana": 6,
             "tipo": "B"
         },
@@ -108,14 +72,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 7,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 7",
+            "descripcion": "el embrión tiene 5 semanas de edad y duplicó su tamaño. Ya mide entre 10 y 13 mm., que es aproximadamenye el tamaño de un garbanzo, y se lo puede ver y escuchar mediante una ecografía. La cabeza es enorme en relación al resto del cuerpo. Es que se está desarrollando el cerebro de tu bebé a un ritmo muy rápido y dividiéndose en dos hemisferios. Por otro lado se están produciendo glóbulos rojos en el hígado. Luego, cuando la médula espinal se desarrolle completamente, lo reemplazará en esta función. Además ya se formó el apéndice y el páncreas, órgano que más adelante comenzará a segregar insulina, hormona que colabora en el proceso digestivo. El corazón late muy rápido y ya comenzó a dividirse en cuatro cavidades. Los bronquios comienzan a desarrollarse en los pulmones. Las manos y pies ya pueden distinguirse muy bien y se asemejan a aletas, ya que los dedos están unidos por una membranas que pronto desaparecerán.",
             "semana": 7,
             "tipo": "B"
         },
@@ -126,86 +84,56 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 8,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 8",
+            "descripcion": "El embrión ya tiene 6 semanas de edad y mide entre 13 y 19 mm. de longitud céfalo-caudal (de la cabeza a la cola) y su aspecto se está tornando cada vez más humano. Su medida es similar al tamaño de un frijol, que no para de moverse. Se sacude y da vueltas dentro del útero como si fuera un pececito. Pero aún es muy temprano para que los llegues a sentir. Los movimientos del bebé los vas a comenzar a percibir algunas semanas más adelante. Tal vez te preguntes por qué si estás embarazada de 8 semanas tu bebé tiene dos semanas menos de vida. Esto sucede porque el embarazo comienza a contarse desde tu fecha de tu última menstruación y la concepción tiene lugar aproximadamente dos semanas después",
             "semana": 8,
             "tipo": "B"
         },
         {
-            "titulo": "Curiosidades",
+            "titulo": "semana 8",
             "descripcion": "Puede que sientas una gran curiosidad acerca del sexo de tu bebé. Todavía es pronto para saber si tu bebé será niño o niña, sin embargo, el sexo se definió al principio de la concepción. Una ecografía responderá a tu pregunta si así lo deseas alrededor de la semana 20 de embarazo. Aunque ya existen test caseros para saber el sexo del bebé o simplemente puedes echar un vistazo a la tradicional tabla china de la concepción.",
             "semana": 8,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 9,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 9",
+            "descripcion": "Los bracitos, piernitas y dedos se van alargando y a esta altura tu bebé ya mide aproximadamente 2 cm. Su boca y su nariz ya pueden distinguirse bien y ahora comienza a desarrollarse el cerebelo. Sus ojos se deslizan hacia el frente de la cara y se forma la pupila.",
             "semana": 9,
             "tipo": "B"
         },
         {
-            "titulo": "Cambios en tu cuerpo",
+            "titulo": "Semana 9",
             "descripcion": "En la novena semana de embarazo es la excesiva sensibilidad a los olores. Algunas mujeres llegan a sentir náuseas ante esta nueva capacidad olfativa ya que perciben exageradamente los olores. Otras, sin embargo, pierden totalmente el sentido del gusto y el olfato debido a la congestión de las fosas nasales. Los cambios en el pecho cada vez son más evidentes, además el aumento del volumen de las mamas, sentirás hormigueo u calor, notarás sensibilidad en los senos y la areola más oscura. Además, toda una serie de venas azuladas son visibles por debajo de la piel. El pecho se prepara para alimentar al bebé.",
             "semana": 9,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 10,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 10",
+            "descripcion": "El embrión mide entre 30 y 40 mm y pesa unos 5-6 gramos. La forma es cada vez más parecida a la de un bebé, con la cara más redondeada. Los huesos ya acumulan calcio. Este proceso hará que el cartílago se convierta en hueso. Empieza por el centro de los huesos y se extiende hacia los extremos. Como todos los procesos del desarrollo humano, la calcificación es lenta y no finalizará hasta años después del nacimiento. En el sistema nervioso, miles de neuronas se crean cada día y hacen que el cerebro se desarrolle rápidamente. Por ahora estas neuronas no tienen casi actividad. Pero todo en el desarrollo tiene un sentido. Es fundamental que se formen adecuadamente; más adelante migrarán del centro a la periferia del cerebro y se conectarán entre ellas. Pero todavía faltan semanas para esto. A pesar de que el cerebro no participa, los nervios se han formado y conectan ya muchos músculos, que tienen movimientos involuntarios cada vez más frecuentes.Por ejemplo, las manos ya se abren y cierran de forma periódica. Los intestinos siguen formándose y se van colocando en su lugar, desapareciendo ¿ progresivamente la hernia fisiológica que existe en las primeras semanas. La barriga del bebé en pocos días ya tendrá el aspecto que tiene la de un recién nacido, con el cordón umbilical entrando por el ombligo.",
             "semana": 10,
             "tipo": "B"
         },
         {
-            "titulo": "Cambios en tu cuerpo",
+            "titulo": "semana 10",
             "descripcion": "A las 10 semanas de embarazo, tu útero cada vez es más grande y comienza a ascender en la cavidad abdominal siendo más evidente que tu barriga está más abultada. Puede que quien no sepa que estás embarazada no aprecie el cambio, pero para ti es evidente que tu fisonomía ha cambiado y es normal que tengas que soltar el botón de tu pantalón porque te oprime o usar ropa más holgada que habitualmente. La vejiga se encuentra comprimida y esto produce que tengas ganas de orinar con más frecuencia.",
             "semana": 10,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 11,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 11",
+            "descripcion": "Está terminando la etapa embrionaria y muy pronto pasará a la fetal. En estas semanas de embarazo el feto pesa aproximadamente 8 gramos y mide entre 4 y 6 centímetros. Vamos a poder ver grandes cambios a partir de ahora. El crecimiento es rapidísimo y el feto doblará su peso en las próximas tres semanas. Es capaz de moverse de forma muy activa pese a no percibir la madre dichos movimientos. La cabeza sigue siendo la mitad de su cuerpo, pero ya es completamente normal. Las orejas van migrando a su posición definitiva. Aparecen barbilla y cuello. En la boca se forma el paladar duro. Sus dedos están ya separados, las membranas que los unían han desaparecido y ya puede abrir y cerrar sus manos. Empiezan a diferenciarse las uñas de los dedos.",
             "semana": 11,
             "tipo": "B"
         },
         {
-            "titulo": "semana 11",
+            "titulo": "Semana 11",
             "descripcion": "Empiezas a sentir que tu ropa de siempre está más ajustada. Es normal que por la tarde la cintura de tus pantalones o faldas te ajuste más.Todavía es pronto para usar ropa de embarazada, sobre todo si es tu primer embarazo, pero puedes optar por ropa más holgada para no sentirte oprimida o incómoda. Ya notas un abultamiento en la región del pubis, tu útero crece y con él tu abdomen. Los calambres en las embarazadas son normales, puede que te despiertes durante la noche sintiendo un intenso dolor en las pantorrillas o los gemelos. Pide ayuda a tu pareja y estira bien el músculo estirando el pie hacia ti. Los calambres, normales desde ahora, en la semana once de gestación, se deben al cansancio o a la falta de ciertas vitaminas como calcio, magnesio y potasio. Las náuseas y mareos van remitiendo, poco a poco te sentirás menos somnolienta y entrarás en el segundo trimestre de embarazo, para muchas mujeres el mejor de todos porque han pasado las molestias iniciales y todavía el abdomen no es muy grande.",
             "semana": 11,
             "tipo": "M"
         },
         {
-            "titulo": "semana 12",
-            "descripcion": "jkbkjbkjbkjb",
-            "semana": 12,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 12",
+            "descripcion": "La cabeza del feto ya está erguida, sus intestinos ya se han puesto en funcionamiento y van entrenándose para expulsar el meconio tras el nacimiento. Ya bebía líquido amniótico desde la semana 9 y ahora comienza a orinarlo, ¡sus riñones funcionan! Si pudieras tocarle la piel, ya respondería a los estímulos. De hecho, cuando roza el interior de las paredes del útero, le pega patadas. su médula ósea empieza a fabricar células sanguíneas. El crecimiento de las neuronas y las conexiones que van formando entre sí es vertiginosamente rápido.",
             "semana": 12,
             "tipo": "B"
         },
@@ -216,14 +144,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 13,
-            "tipo": "T"
-        },
-        {
-            "titulo": "semana 13",
-            "descripcion": ",dvd",
+            "titulo": "Semana 13",
+            "descripcion": "En este momento, y aunque no puedas verlo -ni casi creerlo- tu bebé puede estar bostezando, girando la cabeza, pateando y hasta puede tener su primer “ataque” de hipo. Su desarrollo es imparable y maravilloso, tanto, que la proliferacióncelular sigue sus pautas establecidas creando nuevas estructuras, nuevas posibilidades y funcionalidades. El feto midealgo más de 7 centímetros y pesa unos 25 gramos. El esqueleto del bebé está desarrollando ya el área de la clavícula y el fémur. Todos ello propicia el que “vaya estirándose” y que vaya adquiriendo, cada vez más, un aspecto “ligeramente” parecido al nuestro. De hecho, incluso sus facciones van modelándose con unos rasgos más suaves, más perfilados.  El cartílago continúa también con su lento proceso, y en esta fase, a pesar de que nuestro bebé tenga un aspecto más humano cabe decir que su, cuerpo crece más rápido que la cabeza, de ahí que aún nos parezca algo desproporcionado. Los brazos ya tienen una proporción más equilibrada respecto a las manos, y éstas, ya son más funcionales. De hecho, según nos explican los científicos, es a lo largo de esta semana cuando el bebé puede poner a prueba su sentido del tacto tocando ya el cordón umbilical.",
             "semana": 13,
             "tipo": "B"
         },
@@ -234,32 +156,20 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 14,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 14",
+            "descripcion": "El feto pesa alrededor de 30 gramos y mide aproximadamente unos 10 cm de longitud (como el tamaño de un limón). Su cabeza y extremidades superiores son casi proporcionales. Sin embargo, será necesario algún tiempo más para que esta proporcionalidad alcance también a las extremidades inferiores. El cuello se alarga permitiendo que las orejas se desplacen hacia arriba y encuentran su posición. Comienzan los movimientos oculares, pero todavía mantiene los párpados cerrados. La cabeza continúa flexionada.",
             "semana": 14,
             "tipo": "B"
         },
         {
-            "titulo": "semana 14",
+            "titulo": "Semana 14",
             "descripcion": "Es probable que a estas alturas del embarazo, en la semana 14 de embarazo,  hayas padecido ya los incómodos calambres del embarazo. Son contracciones involuntarias del músculo debido al cansancio o a una falta de magnesio y potasio. No son peligrosos, sólo molestos. Para evitarlos puedes realizar ejercicio físico moderado y hablar con tu médico si son muy constantes para que te recete algún suplemento. También hay alimentos que pueden darte este aporte como plátanos, cereales o vegetales verdes. En la cara y en el pecho podrías notar que han salido unos puntos rojos, como lunares. Se llaman hemangiomas estelares y se producen porque hay una mayor fragilidad capilar pero no revisten importancia y tienden a desaparecer después del parto. Tu embarazo comienza a ser evidente a las 14 semanas de embarazo. El cambio más notorio que sentirás ahora, a partir de la semana catorce de embarazo es el crecimiento del abdomen. Tu cintura comienza a ensancharse y tu ropa habitual te aprieta. El útero crece semana a semana a medida que el bebé se desarrolla. Si quieres saber dónde está tu útero puedes tumbarte boca arriba y tocar en la zona situada por encima del pubis y debajo del ombligo. Puedes presionar sin miedo a hacer daño al bebé ya que está protegido por el líquido amniótico.",
             "semana": 14,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 15,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 15",
+            "descripcion": "Los huesos de tu bebé comienzan a osificarse. Ahora son lo suficientemente duros como para que el esqueleto de tu bebé se vea en una radiografía. Sin embargo, la piel de tu bebé sigue siendo muy transparente y delgada. A tu pequeño le sigue creciendo pelo en sus cejas y cabeza. Si él o ella nace con cabello oscuro, los folículos capilares estarán comenzando a fabricar el pigmento necesario en estos momentos. El corazón de tu bebé bombea aproximadamente 25 litros de sangre por día. Para cuando él o ella nazca, su corazón bombeará más de 300 litros de sangre al día.",
             "semana": 15,
             "tipo": "B"
         },
@@ -270,14 +180,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "semana 16",
-            "descripcion": "",
-            "semana": 16,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 16",
+            "descripcion": "Tu bebé pesa alrededor de 110 gramos y mide unos 12 centímetros de la coronilla al cóccix. tu bebé puede sostener erguida la cabeza y el desarrollo de los músculos faciales ya le permite realizar una variedad de expresiones, como fruncir el ceño ese pequeñito puede escucharte, así que háblale, cántale y ponle música. Esto ayudará a estimularlo y a fomentar ese vínculo de amor que hay entre los dos. Porsu parte, sus uñitas ya comenzaron a crecer y seguro deberás cortarlas apenas nazca.",
             "semana": 16,
             "tipo": "B"
         },
@@ -288,14 +192,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dshdshds",
-            "descripcion": "jhdshdshdshds",
-            "semana": 17,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 17",
+            "descripcion": "Tu bebé comienza a añadir grasa a su cuerpo! La grasa le proporciona energía y le ayuda a mantenerse cálido después de nacer. Sobre la piel de tu bebé comienza a aparecer el vernix. Éste es un recubrimiento impermeable, grasoso y con apariencia de cera. Protege la piel de tu bebé cuando está en el vientre, también aparece una suave pelusilla en sus cejas y sus sentidos se van agudizado por ejemplo, ya se mueve si escucha un sonido brusco.",
             "semana": 17,
             "tipo": "B"
         },
@@ -306,14 +204,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 18,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 18",
+            "descripcion": "Es posible que le hagan su primer ultrasonido esta semana. ¡Es la primera vez que podrá “ver” a su bebé! Quizás podrá ver si es niña o niño, pero dígale a su profesiona la salud si no quiere saber el sexo del bebé. En el transcurso del día, su bebé duerme y se despierta. Los ruidos fuertes y sus movimientos pueden despertarlo. Su piel está cubierta de lanugo. Esto es un vello fino que lo mantiene cálido en el vientre.",
             "semana": 18,
             "tipo": "B"
         },
@@ -324,14 +216,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 19,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 19",
+            "descripcion": "Tu bebe tiene 17 semanas desde la concepción tu bebe mide alrededor de 15 centimetros y pesa unos 250 gramos. Su cabeza, brazos y piernas ya tienen un tamaño proporcional al resto del cuerpo y ha comenzado a crecerle el pelo en su cabecita, las orejas y los ojos ya casi se ubican en su posición final Es algo asombroso, pero si estás esperando un niña, sus pequeños ovarios que no tendrán más tamaño que el de un botón ya contienen huevos primitivos que darán origen a los óvulos Los sentidos del bebé siguen desarrollándose rápidamente. El sentido del oído ya está desarrollado como para que pueda escuchar a través del líquido amniótico los sonidos que produce tu cuerpo como el del estómago al digerir los alimentos, el latido de tu corazón y por supuesto, tu voz, que ya distingue de la de los demás. Puedes hablarle, ponerle música y comunicarte con tu bebé a través de caricias. Las vibraciones del sonido llegan al feto a través de las paredes del útero provocando en él sensaciones placenteras, activando las neuronas y aumentando la frecuencia cardíaca.",
             "semana": 19,
             "tipo": "B"
         },
@@ -345,13 +231,7 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 20,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 20,
-            "tipo": "B"
+            "tipo": "En la semana 20, los principales órganos del feto ya se han desarrollado, y ya puede valorarse por ecografía que la anatomía del bebé sea correcta. El corazón, riñones, hígado, columna, genitales e intestino ya tienen su forma casi final y a partir de ahora crecerán en tamaño y madurarán. Una excepción es el cerebro, que aunque ya está muy desarrollado, seguirá completándose su formación hasta el final del embarazo e incluso durante los primeros años de vida del bebé. A estas alturas, tanto la forma como sus proporciones son parecidas a las que presentará al nacer; en esta etapa los movimientos son fundamentales para que no presente deformidades en las articulaciones ni en las extremidades. En la capa más superficial de la piel, la epidermis, empiezan a aparecer los surcos característicos de cada persona en palmas de las manos, dedos y plantas de los pies. Estas arrugas o surcos epidérmicos vienen determinados genéticamente y son distintos para cada persona."
         },
         {
             "titulo": "Cambios en tu cuerpo",
@@ -360,14 +240,8 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 21,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 21",
+            "descripcion": "Las medidas están entre 17 y 18 cm y el peso es de 300 gramos. El sistema digestivo está madurando; el feto se encuentra con una gran actividad moviendo las cuatro extremidades y deglutiendo líquido amniótico, que pasa al estómago y al intestino delgado, que absorbe parte del líquido; el resto pasa al intestino grueso. Este líquido amniótico contiene nutrientes que ayudan al desarrollo del bebé, tanto del sistema digestivo como del sistema respiratorio. El grado de desarrollo de los intestinos permite absorber pequeñas cantidades de nutrientes del líquido que el feto traga. Sin embargo, la mayoría de nutrientes del feto seguirán proviniendo de la placenta La médula ósea empieza a producir glóbulos rojos, substituyendo progresivamente la función que realizaba hasta el momento el hígado y el bazo del feto. En las niñas, la vagina comienza a formarse y en los niños los testes descienden desde la pelvis al escroto.",
             "semana": 21,
             "tipo": "B"
         },
@@ -378,50 +252,32 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 22,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 22",
+            "descripcion": "Mide entre 19 y 20 cm y su peso es de 350 gramos. A nivel de la cara ya están formados los párpados y las cejas, aunque aún faltan las pestañas y además, aún los párpados están fusionados por lo que el feto estáno no puede abrir los ojos. Los labios se delimitan muy bien, y dentro de las encías se están empezando a formar los dientes. En estas semanas, el sistema límbico está en pleno desarrollo; esta estructura que está en el cerebro será la encargada de controlar as emociones y los sentimientos. El hígado empieza a funcionar hacia la semana 10 del embarazo. Pero su capacidad para metabolizar la bilirrubina y producir bilis (la encargada de digerir los alimentos)no comienza hasta un poco antes del nacimiento. Por eso, los niños prematuros tienen más predisposición a ponerse amarillos (la llamada ictericia), ya que su hígado aún es inmaduro para metabolizar la bilirrubina que se encuentra con niveles aumentados en su sangre.",
             "semana": 22,
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
+            "titulo": "Semana 22",
             "descripcion": "En la semana 22 de embarazo, el útero ya ha llegado a la altura de tu ombligo y ha aumentado bastante de peso. Serán más evidentes los movimientos del bebé tu abdomen esta de una forma considerable y tu ropa habitual ya no te vale, El aumento del útero trae consigo una molestia: presiona la vejiga y el recto por lo que se debilita el suelo pélvico, algo que podría provocar que tengas pérdidas de orina, Lo normal es que a estas alturas del embarazo hayas engordado entre 5 y 6 kilos. Algunas venas se ven comprimidas y aparecen las varices, edemas en los tobillos y sensación de hinchazón Puede pasarte si tienes mucho estrés o sueles cargar con peso. te salen unas manchas oscuras en la cara, denominadas cloasma. Se producen por el aumento de hormonas que estimulan la pigmentación de la piel.",
             "semana": 22,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 23,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 23",
+            "descripcion": "Las medidas están entre 20 y 21 cm y pesa unos 450 g. Se empieza a depositar el pigmento que colorea la piel; actualmente está piel es delgada y con muchas arrugas, que se irán alisando progresivamente. Así pues, el bebé nacerá con cierta pigmentación en su piel, pero no adquirirá su color definitivo hasta el final del primer año de vida. Sin embargo, el iris aún no está pigmentado. Por lo tanto, todavía no se sabe qué color tendrán los ojos del futuro bebé. Los huesos siguen su transformación progresivamente pasando de cartílago a hueso. Se trata de un proceso de calcificación que se inicia en el centro del hueso y progresa hacia los extremos, y que seguirá una vez haya nacido el bebé. De hecho, durará hasta varios años después.",
             "semana": 23,
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
+            "titulo": "Semana 23",
             "descripcion": "En la Semana 23 del embarazo la mujer también experimenta hinchazón en el cuerpo. Los tobillos y los pies suelen hincharse, esto se denomina edema, el útero se agranda. Cuando el útero crece las venas se presionan, esto ocasiona presión sobre las venas y ocasiona una mala circulación en las piernas.El abdomen ya ha superado la altura del ombligo, puede que ello te ocasione tirantez en los costados estiramiento que está sufriendo la piel con el crecimiento del útero puede hacer que sientas picores, te cuesta más respirar y te fatigas enseguida, es debido a que el útero empuja a los pulmones hacia arriba Los suplementos de hierro suelen causar estreñimiento en muchas embarazadas, tendrás la sensación de estar más despistada y olvidadiza",
             "semana": 23,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 24,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 24",
+            "descripcion": "Las medidas están entre 21 y 22 cm y pesa unos 700 g. En estos momentos el peso depende también del sexo del feto, por lo que los niños suelen tener pesos algo superiores a las niñas. En estas semanas la mayoría de órganos sensoriales  del feto están maduros (tacto, olfato, oído y papilas gustativas) por lo que con la llegada de estímulos del exterior el feto empieza a interactuar. A través del líquido amniótico el feto se familiariza con olores y sabores . En cambio, debido a la oscuridad que existe en el interior del útero, el feto no es capaz de ver. Además, a causa del espacio que tiene aún en el saco amniótico, el feto cambia de posición varias veces en un día. En esta semana de embarazo se alcanza una etapa muy importante: la viabilidad fetal . A partir de estas semanas se empieza a producir en los pulmones el surfactante pulmonar una sustancia que ayuda al intercambio de oxigeno en los pulmones. Si hubiera alguna complicación que hiciera pensar que el bebe puede nacer antes de tiempo, se administrará una medicación para acelerar la maduracion de los pulmones. En el caso de que se produjera el parto, los pediatras realizarían todas las maniobras necesarias para ayudar al bebé a respirar y adaptarse al ambiente extrauterino.",
             "semana": 24,
             "tipo": "B"
         },
@@ -432,37 +288,25 @@
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 25,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 25",
+            "descripcion": "Las medidas del feto están sobre los 22 cm de la cabeza a las nalgas y el peso se encuentra sobre 800 gramos. A partir de estas semanas, los párpados del feto se empiezan a abrir y cerrar, y ya tienen pestañas. En cambio, el color de los ojos, a pesar que ya está determinado genéticamente desde el inicio no se definirá hasta un tiempo después del nacimiento ya que ciertos pigmentos necesitan luz para acabar de formarse. En este periodo del embarazo el sentido del oído es el que más se desarrolla ya que las ondas sonoras se desplazan por el líquido amniótico, llegando al feto por lo que empieza a escuchar los primeros sonidos, sobre todo aquellos más próximos, es decir los que provienen del cuerpo de la madre. En estas semanas, el feto es muy activo y puede que ya se coloque con la cabeza o las nalgas hacia abajo, pero eso no quiere decir que vaya a mantenerse así hasta el parto, porque todavía es pequeño y tiene espacio suficiente para moverse y cambiar de posición varias veces durante el día.",
             "semana": 25,
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
+            "titulo": "Semana 25",
             "descripcion": "la semana 25 de embarazo, la compresión del útero sobre el estómago puede dar lugar al reflujo o sensación de ardor de estómago También son frecuentes los gases o flatulencias que, en algunos casos, pueden producir dolor cuando no se expulsan. Se presenta la falta de aire las náuseas y los vómito",
             "semana": 25,
             "tipo": "M"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 26,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
+            "titulo": "Semana 26",
+            "descripcion": "El feto están sobre los 23 cm. de la cabeza a las nalgas y el peso se encuentra sobre 900 gramos. El feto tiene ciclos de sueño y vigilia. Estos ciclos tienen una duración mucho menor que los de un niño o un adulto, por lo que una gran parte del día lo pasará dormido y no se moverá pero en otros momentos se activará y la embarazada notará claramente sus movimientos, que suelen ser más intensos y coordinados. Los reflejos están desarrollados y es frecuente que ante un estímulo responda estirando los brazos o las piernas y lo puedas notar a través del abdomen. El sistema nervioso sigue madurando: aumenta su capacidad de controlar la temperatura corporal y aparece progresivamente la capacidad de realizar movimientos respiratorios. Aunque no respire dentro del útero irá practicando para cuando llegue el momento del nacimiento. El feto va acumulando tejido adiposo (grasa) bajo la piel, reduciendo los pliegues y arruguitas de la piel. Esta grasita le ayudará a mantener el calor una vez haya nacido. En estos momentos, el feto ingiere aproximadamente medio litro de líquido amniótico al día para seguir con la maduración del sistema digestivo y respiratorio.",
             "semana": 26,
             "tipo": "B"
         },
         {
-            "titulo": "dsdjudsjdsjdsjsd",
+            "titulo": "Semana 26",
             "descripcion": "Es posible que los cambios hormonales afecten a tu estado de ánimo y a tu humor y pases de la risa al llanto con facilidad. incluso interferir en su deseo sexual cada vez tendrás más necesidad de acudir al baño cada menos tiempo. La cantidad de orina de cada micción no suele ser muy abundantem debido a que al estar la vejiga comprimida hacia la semana 26 de embarazo ya están los resultados de la primera sobrecarga de glucosa. Es cuando las pacientes a las que les ha dado alterada se realizan la segunda sobrecarga. Si la primera sobrecarga de glucosa ha dado alterada, deberás repetirte También son frecuentes la aparición de estrías en el abdomen y en el pecho",
             "semana": 26,
             "tipo": "M"
@@ -471,12 +315,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 27,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 27,
             "tipo": "B"
         },
         {
@@ -489,12 +327,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 28,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 28,
             "tipo": "B"
         },
         {
@@ -502,12 +334,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 28,
             "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 29,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -520,12 +346,6 @@
             "descripcion": "Es probable que a estas alturas del embarazo, en la semana 14 de embarazo,  hayas padecido ya los incómodos calambres del embarazo. Son contracciones involuntarias del músculo debido al cansancio o a una falta de magnesio y potasio. No son peligrosos, sólo molestos. Para evitarlos puedes realizar ejercicio físico moderado y hablar con tu médico si son muy constantes para que te recete algún suplemento. También hay alimentos que pueden darte este aporte como plátanos, cereales o vegetales verdes. En la cara y en el pecho podrías notar que han salido unos puntos rojos, como lunares. Se llaman hemangiomas estelares y se producen porque hay una mayor fragilidad capilar pero no revisten importancia y tienden a desaparecer después del parto. Tu embarazo comienza a ser evidente a las 14 semanas de embarazo. El cambio más notorio que sentirás ahora, a partir de la semana catorce de embarazo es el crecimiento del abdomen. Tu cintura comienza a ensancharse y tu ropa habitual te aprieta. El útero crece semana a semana a medida que el bebé se desarrolla. Si quieres saber dónde está tu útero puedes tumbarte boca arriba y tocar en la zona situada por encima del pubis y debajo del ombligo. Puedes presionar sin miedo a hacer daño al bebé ya que está protegido por el líquido amniótico.",
             "semana": 29,
             "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 30,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -543,12 +363,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 31,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 31,
             "tipo": "B"
         },
         {
@@ -556,12 +370,6 @@
             "descripcion": "Las molestias en la parte baja del abdomen pueden ir aumentando a medida que aumenta el volumen del abdomen. Además, debido a los cambios que se producen en la pelvis, pueden aparecer cuadros de dolor en esta zona que dificulten la movilidad. Dentro de la preparación del cuerpo para el nacimiento de tu bebé también se encuentran los cambios que se producen en el pecho para prepararlo para la lactancia. En estos momentos puede producirse la secreción de calostro a través del pezón que en algunas veces puede incomodar a la embarazada, esa primera lechita que es tan importante para tu bebé. En el caso de que estas secreciones sean abundantes, puede ser necesario usar discos absorbentes en el sostén para evitar manchar la ropa o toallitas absorbentes. El incremento de presión que realizan el útero y tu bebé en la zona pélvica produce un enlentecimiento de la sangre a este nivel . Esto, acompañado del aumento del flujo de sangre a este nivel hace que en estos momento empieces a notar la vulva más hinchada. Esto no representa ningún problema pero en algunos casos puede ir acompañado de varices, que sí pueden ser molestas",
             "semana": 31,
             "tipo": "M"
-        },
-        {
-            "titulo": "semana 32",
-            "descripcion": "dfiodiodioiow",
-            "semana": 32,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -579,12 +387,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 33,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 33,
             "tipo": "B"
         },
         {
@@ -592,12 +394,6 @@
             "descripcion": "El dolor lumbar en estos momentos del embarazo también se puede intensificar, e incluso irradiar a la nalga, el muslo y la pierna; es la llamada ciática y se produce por la compresión del nervio ciático debido a que se acentúa la curva lumbar por el cambio en el centro de gravedad. Este síntoma es relativamente frecuente y podemos evitar su aparición con la práctica regular de ejercicio y/o yoga. Si no había aparecido hasta ahora, es posible que empiecen a aparecer síntomas digestivos como los ardores, gases y otras molestias abdominales. Es importante comer en pequeñas cantidades, reducir los alimentos retrasan el vaciado gástrico, como bebidas carbonatadas (con gas, en especial las bebidas de cola), café, té, chocolate y alimentos o preparaciones grasas (fritos, estofados o guisos grasos).",
             "semana": 33,
             "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 34,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
@@ -615,12 +411,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 35,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 35,
             "tipo": "B"
         },
         {
@@ -633,12 +423,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 36,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 36,
             "tipo": "B"
         },
         {
@@ -651,12 +435,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 37,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 37,
             "tipo": "B"
         },
         {
@@ -669,12 +447,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 38,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 38,
             "tipo": "B"
         },
         {
@@ -687,12 +459,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 39,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 39,
             "tipo": "B"
         },
         {
@@ -705,12 +471,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 40,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 40,
             "tipo": "B"
         },
         {
@@ -723,12 +483,6 @@
             "titulo": "dsdjudsjdsjdsjsd",
             "descripcion": "dfiodiodioiow",
             "semana": 41,
-            "tipo": "T"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 41,
             "tipo": "B"
         },
         {
@@ -736,12 +490,6 @@
             "descripcion": "dfiodiodioiow",
             "semana": 41,
             "tipo": "M"
-        },
-        {
-            "titulo": "dsdjudsjdsjdsjsd",
-            "descripcion": "dfiodiodioiow",
-            "semana": 42,
-            "tipo": "T"
         },
         {
             "titulo": "dsdjudsjdsjdsjsd",
