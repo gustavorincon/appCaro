@@ -88,7 +88,7 @@ export class ServiceGeneralService {
     }
    }
 
-   calcularFechaParto(){
+   calcularFechaParto(event){
     if(this.myForm.value.fecha!=null &&this.myForm.value.fecha!=''){
       this.dateUltimaMestruacion= new Date(this.myForm.value.fecha);
       let fechaActual= new Date();

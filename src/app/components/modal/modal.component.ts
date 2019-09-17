@@ -41,4 +41,12 @@ export class ModalComponent implements OnInit {
 
   }
 
+  save(){
+
+  }
+
+  calcularFechaParto(event){
+    
+  }
+
 }
