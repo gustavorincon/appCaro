@@ -11,7 +11,7 @@
 
 <ion-content>
     <ion-card>
-        <img [src]="img" />
+        <div *ngIf="verImagen"><img [src]="img" /></div>
         <ion-card-header>
             <ion-card-title>{{titulo}}</ion-card-title>
         </ion-card-header>

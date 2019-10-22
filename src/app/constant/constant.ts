@@ -299,67 +299,67 @@ export const CONTROLES=[
   },
   {
     id:8,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: ' A partir de semana 22',
     desc: 'A partir de la semana 22 ya se puede escuchar el latido cardiaco del feto. En la consulta del ginecólogo, se escucha el latido cardiaco con un aparato eléctrico poniendo un cursor con un poco de gel sobre la pared abdominal en la zona donde se sospecha que está el corazón y escuchándolo a través de un pequeño altavoz. Es importante recordar, que en estas semanas a veces cuesta localizar el latido cardiaco debido a los movimientos del feto y a las diferentes posturas que éste adopta.'
   },
   {
     id:9,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Entre semana 24 y 28',
     desc: 'Entre las 24 y las 28 semanas es el momento de realizar la analítica de segundo trimestre: se solicitará el hemograma para valorar si existe anemia, la serología de toxoplasma en caso que fuese negativa en el primer trimestre y la prueba oral de tolerancia a la glucosa. Este último permite detectar embarazadas con un mayor riesgo de tener diabetes durante la gestación y se realiza de forma rutinaria en el segundo trimestre.'
   },
   {
     id:10,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Entre semana 26 y 32',
     desc: 'Entre las 26 y las 32 semanas suele ser el mejor momento para la realización de la ecografía 3D/4D, y así poder ver la cara del futuro bebé.Si la paciente lo desea también es momento de comenzar el curso de profilaxis para el parto.'
   },
   {
     id:11,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Apartir de semana 31 y 34',
     desc: 'A partir de la semana 31 y hasta las 34 semanas debe realizarse la ecografía de tercer trimestre, con la finalidad de evaluar el crecimiento del feto y su posición.'
   },
   {
     id:12,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'De la semana 33 y 37',
     desc: 'De la semana 33 a la 37 es el momento de realizar los análisis del tercer trimestre: donde vuelve a realizarse un hemograma para valorar la anemia y la serología de toxoplasma si la gestante no está inmunizada, además de una prueba coagulación previendo la administración de analgesia peridural si la gestante lo desea.'
   },
   {
     id:13,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Entre semana 35 y 37',
     desc: 'Entre la semana 35 y 37 se realiza un cultivo vaginal, para descartar la presencia del germen Streptococo agalactiae. Si resultara positivo, se administrará antibióticos durante el trabajo de parto para prevenir una eventual infección del bebé.'
   },
   {
     id:14,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Semana 37',
     desc: 'En la semana 37, en caso de presentar contracciones uterinas, el ginecólogo realiza un tacto vaginal para ver las características del cuello del útero.'
   },
   {
     id:15,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Semana 38',
     desc: 'En la semana 38 también es posible que le hagan a la embarazada una exploración para ver la dilatación del cuello y su grado de borramiento.'
   },
   {
     id:16,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Entre semana 39 y 40',
     desc: 'Entre las 39 y 40 semanas es el mejor momento para programar una cesárea en los casos en los que esté indicada de forma electiva. Por ejemplo, en caso de presentación de nalgas, situación transversa, dos o más cesáreas previas u otra contraindicación para el parto vaginal.'
   },
   {
     id:17,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Apartir semana 40',
     desc: 'Si el embarazo es de bajo riesgo, a partir de la semana 40 suele efecturarse la monitorización del feto mediante el Test No Estresante (NST). Esta prueba permite valorar el bienestar fetal.'
   },
   {
     id:18,
-    img: '/assets/slides/semana1.png',
+    img: '',
     titulo: 'Entre semana 41 y 42',
     desc: 'Entre las 41 y las 42 semanas se realizan controles más seguidos y se suele llevar a cabo una monitorización de la frecuencia cardíaca del feto y de las contracciones maternas, una ecografía para valorar el líquido amniótico, el peso y los movimientos del feto y el cuello uterino.'
   }

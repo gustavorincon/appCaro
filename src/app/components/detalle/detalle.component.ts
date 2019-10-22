@@ -13,6 +13,7 @@ export class DetalleComponent implements OnInit {
   public titulo:String;
   public img:String;
   public descripcion:String;
+  public verImagen:boolean=false;
 
 
   constructor( private modalCtrl: ModalController) { }
@@ -23,8 +24,11 @@ export class DetalleComponent implements OnInit {
       this.img=this.actividad.img;
       this.descripcion= this.actividad.desc;
 
+      if(this.img!="" && this.img!=undefined){
+        this.verImagen=true;
+      }
+
     }
-    console.log(this.actividad);
   }
 
 
